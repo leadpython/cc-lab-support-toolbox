@@ -1,0 +1,26 @@
+.config-textarea {
+  width: 100%;
+  height: 100%;
+  resize: none;
+  border: none;
+  padding: 14px;
+  background: #272821;
+  color: white;
+  font-weight: 400;
+  font-family: 'Open Sans';
+}
+
+.config-box {
+  border: 1px solid rgba(0,0,0,0.12);
+}
+
+.lab-input {
+  box-sizing: border-box;
+  height: 40px;
+  font-size: 14px;
+  color: #272821;
+  padding-left: 10px;
+  border: none;
+  width: calc(100% - 84px);
+  background: rgba(0,0,0,0.05);
+}

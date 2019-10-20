@@ -1,69 +1,82 @@
-
-import React from 'react';
-import AppBar from '@material-ui/core/AppBar';
-import CssBaseline from '@material-ui/core/CssBaseline';
-import Divider from '@material-ui/core/Divider';
-import Drawer from '@material-ui/core/Drawer';
-import Hidden from '@material-ui/core/Hidden';
-import IconButton from '@material-ui/core/IconButton';
-import InboxIcon from '@material-ui/icons/MoveToInbox';
-import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
-import ListItemText from '@material-ui/core/ListItemText';
-import MailIcon from '@material-ui/icons/Mail';
-import MenuIcon from '@material-ui/icons/Menu';
-import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
-import { makeStyles, useTheme, Theme, createStyles } from '@material-ui/core/styles';
+import React from "react";
+import AppBar from "@material-ui/core/AppBar";
+import CssBaseline from "@material-ui/core/CssBaseline";
+import Divider from "@material-ui/core/Divider";
+import Drawer from "@material-ui/core/Drawer";
+import Hidden from "@material-ui/core/Hidden";
+import IconButton from "@material-ui/core/IconButton";
+import InboxIcon from "@material-ui/icons/MoveToInbox";
+import List from "@material-ui/core/List";
+import ListItem from "@material-ui/core/ListItem";
+import ListItemIcon from "@material-ui/core/ListItemIcon";
+import ListItemText from "@material-ui/core/ListItemText";
+import MailIcon from "@material-ui/icons/Mail";
+import MenuIcon from "@material-ui/icons/Menu";
+import Toolbar from "@material-ui/core/Toolbar";
+import Typography from "@material-ui/core/Typography";
+import {
+  makeStyles,
+  useTheme,
+  Theme,
+  createStyles
+} from "@material-ui/core/styles";
 import {
   BrowserRouter as Router,
   Switch,
-  Route
+  Route,
+  Link,
+  Redirect
 } from "react-router-dom";
 
-import JaxxConfigUpdater from './pages/JaxxConfigUpdater/JaxxConfigUpdater';
-import Test from './pages/Test/Test';
+import JaxxConfigUpdater from "./pages/JaxxConfigUpdater/JaxxConfigUpdater";
+import Test from "./pages/Test/Test";
 
-import './App.css';
+import "./App.css";
 
 const drawerWidth = 240;
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
-      display: 'flex',
+      display: "flex"
     },
     drawer: {
-      [theme.breakpoints.up('sm')]: {
+      [theme.breakpoints.up("sm")]: {
         width: drawerWidth,
-        flexShrink: 0,
-      },
+        flexShrink: 0
+      }
     },
     appBar: {
       marginLeft: drawerWidth,
-      [theme.breakpoints.up('sm')]: {
-        width: `calc(100% - ${drawerWidth}px)`,
-      },
+      background: "white",
+      [theme.breakpoints.up("sm")]: {
+        width: `calc(100% - ${drawerWidth}px)`
+      }
     },
     menuButton: {
       marginRight: theme.spacing(2),
-      [theme.breakpoints.up('sm')]: {
-        display: 'none',
-      },
+      [theme.breakpoints.up("sm")]: {
+        display: "none"
+      }
     },
     toolbar: theme.mixins.toolbar,
     drawerPaper: {
-      width: drawerWidth,
+      width: drawerWidth
     },
     content: {
       flexGrow: 1,
-      padding: theme.spacing(3),
+      padding: theme.spacing(3)
     },
-  }),
+    typography: {
+      fontFamily: ["Open Sans", "sans-serif"].join(","),
+      color: "#747779",
+      fontWeight: 400,
+      textDecoration: "none"
+    }
+  })
 );
 
-const App: React.FC = (props: any) => {
+const App: React.FC = (props: any, state: any) => {
   const { container } = props;
   const classes = useStyles();
   const theme = useTheme();
@@ -78,78 +91,98 @@ const App: React.FC = (props: any) => {
       <div className={classes.toolbar} />
       <Divider />
       <List>
-        {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
-          <ListItem button key={text}>
-            <ListItemIcon>{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}</ListItemIcon>
-            <ListItemText primary={text} />
+        <Link to="/jaxxconfigupdater" style={{ textDecoration: "none" }}>
+          <ListItem button>
+            <ListItemText
+              disableTypography
+              primary={
+                <Typography
+                  className={classes.typography}
+                  style={{ fontSize: "14px" }}
+                >
+                  Jaxx Config Updater
+                </Typography>
+              }
+            />
           </ListItem>
-        ))}
-      </List>
-      <Divider />
-      <List>
-        {['All mail', 'Trash', 'Spam'].map((text, index) => (
-          <ListItem button key={text}>
-            <ListItemIcon>{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}</ListItemIcon>
-            <ListItemText primary={text} />
+        </Link>
+        <Link to="/test" style={{ textDecoration: "none" }}>
+          <ListItem button>
+            <ListItemText
+              disableTypography
+              primary={
+                <Typography
+                  className={classes.typography}
+                  style={{ fontSize: "14px" }}
+                >
+                  Test
+                </Typography>
+              }
+            />
           </ListItem>
-        ))}
+        </Link>
       </List>
     </div>
   );
 
   return (
-    <div className={classes.root}>
-      <CssBaseline />
-      <AppBar position="fixed" className={classes.appBar}>
-        <Toolbar>
-          <IconButton
-            color="inherit"
-            aria-label="open drawer"
-            edge="start"
-            onClick={handleDrawerToggle}
-            className={classes.menuButton}
-          >
-            <MenuIcon />
-          </IconButton>
-          <Typography variant="h6" noWrap>
-            Responsive drawer
-          </Typography>
-        </Toolbar>
-      </AppBar>
-      <nav className={classes.drawer} aria-label="mailbox folders">
-        {/* The implementation can be swapped with js to avoid SEO duplication of links. */}
-        <Hidden smUp implementation="css">
-          <Drawer
-            container={container}
-            variant="temporary"
-            anchor={theme.direction === 'rtl' ? 'right' : 'left'}
-            open={mobileOpen}
-            onClose={handleDrawerToggle}
-            classes={{
-              paper: classes.drawerPaper,
-            }}
-            ModalProps={{
-              keepMounted: true, // Better open performance on mobile.
-            }}
-          >
-            {drawer}
-          </Drawer>
-        </Hidden>
-        <Hidden xsDown implementation="css">
-          <Drawer
-            classes={{
-              paper: classes.drawerPaper,
-            }}
-            variant="permanent"
-            open
-          >
-            {drawer}
-          </Drawer>
-        </Hidden>
-      </nav>
-      <main className={classes.content}>
-        <div className={classes.toolbar} />
-        <Router>
+    <Router>
+      <div className={classes.root}>
+        <CssBaseline />
+        <AppBar
+          position="fixed"
+          elevation={0}
+          style={{ borderBottom: "1px solid rgba(0,0,0,0.12)" }}
+          className={classes.appBar}
+        >
+          <Toolbar>
+            <IconButton
+              color="inherit"
+              aria-label="open drawer"
+              edge="start"
+              onClick={handleDrawerToggle}
+              className={classes.menuButton}
+            >
+              <MenuIcon />
+            </IconButton>
+            <Typography className={classes.typography} noWrap>
+              CC Lab Support Toolbox
+            </Typography>
+          </Toolbar>
+        </AppBar>
+        <nav className={classes.drawer} aria-label="mailbox folders">
+          {/* The implementation can be swapped with js to avoid SEO duplication of links. */}
+          <Hidden smUp implementation="css">
+            <Drawer
+              container={container}
+              variant="temporary"
+              anchor={theme.direction === "rtl" ? "right" : "left"}
+              open={mobileOpen}
+              onClose={handleDrawerToggle}
+              classes={{
+                paper: classes.drawerPaper
+              }}
+              ModalProps={{
+                keepMounted: true // Better open performance on mobile.
+              }}
+            >
+              {drawer}
+            </Drawer>
+          </Hidden>
+          <Hidden xsDown implementation="css">
+            <Drawer
+              classes={{
+                paper: classes.drawerPaper
+              }}
+              variant="permanent"
+              open
+            >
+              {drawer}
+            </Drawer>
+          </Hidden>
+        </nav>
+        <main className={classes.content}>
+          <div className={classes.toolbar} />
           <div>
             <Switch>
               <Route path="/jaxxconfigupdater">
@@ -158,12 +191,15 @@ const App: React.FC = (props: any) => {
               <Route path="/test">
                 <Test />
               </Route>
+              <Route exact path="/">
+                <Redirect to="/jaxxconfigupdater" />
+              </Route>
             </Switch>
           </div>
-        </Router>
-      </main>
-    </div>
+        </main>
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;
