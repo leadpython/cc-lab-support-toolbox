@@ -7,9 +7,37 @@ import Button from '@material-ui/core/Button';
 import CompareArrowsOutlinedIcon from '@material-ui/icons/CompareArrowsOutlined';
 import "./JaxxConfigUpdater.css";
 
-export default class JaxxConfigUpdater extends Component<{}, {}> {
+import axios from 'axios';
+
+interface State {
+  lab: string,
+  oldConfig: string,
+  internalConfig: string
+}
+
+export default class JaxxConfigUpdater extends Component<{}, State> {
   constructor(props: any) {
     super(props);
+    this.state = {
+      lab: '',
+      oldConfig: '',
+      internalConfig: ''
+    }
+  }
+  handleLabInputChange(e: any) {
+    this.setState({lab: e.target.value})
+  }
+  handleOldConfigChange(e: any) {
+    this.setState({oldConfig: e.target.value})
+  }
+  handleGetConfig() {
+    const self = this;
+    if (self.state.lab.length <= 0) {
+      return;
+    }
+    axios.get(`/api/get-lab-config?lab=${this.state.lab}`).then((response) => {
+      self.setState({oldConfig: JSON.stringify(response.data.data)});
+    });
   }
   render() {
     return (
@@ -19,9 +47,9 @@ export default class JaxxConfigUpdater extends Component<{}, {}> {
         <Grid container xs={12} spacing={2} style={{ marginBottom: '15px' }}>
 
           <Grid item xs={6}>
-            <Paper className="config-box" elevation={0} square={true} style={{ position: 'relative', height: '52px', padding: '6px' }}>
-              <input className="lab-input" placeholder="Lab ID or abbreviation here..." />
-              <Button variant="outlined" style={{ position: 'absolute', top: '10px', right: '10px' }}>
+            <Paper className="config-box" elevation={6} square={true} style={{ position: 'relative', height: '52px', padding: '6px' }}>
+              <input onChange={(e) => this.handleLabInputChange(e)} className="lab-input" placeholder="Lab ID or abbreviation here..." />
+              <Button variant="outlined" style={{ position: 'absolute', top: '10px', right: '10px' }} onClick={() => this.handleGetConfig()}>
                 <Typography className="easy-font" style={{ fontFamily: 'Open Sans', fontSize: '12px' }}>
                   Get
                 </Typography>
@@ -36,7 +64,7 @@ export default class JaxxConfigUpdater extends Component<{}, {}> {
 
           {/* OLD CONFIG */}
           <Grid item xs={6}>
-            <Paper className="config-box" elevation={0} square={true}>
+            <Paper className="config-box" elevation={6} square={true}>
               <Grid container>
                 <Grid item xs={12} style={{ position: 'relative' }}>
                   <Typography className="easy-font" style={{ fontFamily: 'Open Sans', fontSize: '15px', padding: '15px' }}>
@@ -45,7 +73,7 @@ export default class JaxxConfigUpdater extends Component<{}, {}> {
                   <Divider></Divider>
                 </Grid>
                 <Grid item xs={12} style={{ minHeight: '200px' }}>
-                  <textarea className="config-textarea simple-scrollbar" placeholder="Jaxx config here..."></textarea>
+                  <textarea onChange={(e) => this.handleOldConfigChange(e)} className="config-textarea simple-scrollbar" placeholder="Jaxx config here...">{this.state.oldConfig}</textarea>
                 </Grid>
               </Grid>
             </Paper>
@@ -53,11 +81,11 @@ export default class JaxxConfigUpdater extends Component<{}, {}> {
 
           {/* NEW CONFIG */}
           <Grid item xs={6}>
-            <Paper className="config-box" elevation={0} square={true}>
+            <Paper className="config-box" elevation={6} square={true}>
               <Grid container>
                 <Grid item xs={12} style={{ position: 'relative' }}>
                   <Typography className="easy-font" style={{ fontFamily: 'Open Sans', fontSize: '15px', padding: '15px' }}>
-                    New Config
+                    Internal.CC Config
                   </Typography>
                   <Divider></Divider>
                 </Grid>
@@ -90,9 +118,9 @@ export default class JaxxConfigUpdater extends Component<{}, {}> {
         {/* ROW */}
         <Grid container xs={12} spacing={2} style={{ marginBottom: '15px' }}>
 
-          {/* UPDATED CONFIG */}
+          {/* TEST PACKAGE EDITOR */}
           <Grid item xs={8}>
-            <Paper className="config-box" elevation={0} square={true}>
+            <Paper className="config-box" elevation={6} square={true}>
               <Grid container>
                 <Grid item xs={12} style={{ position: 'relative' }}>
                   <Typography className="easy-font" style={{ fontFamily: 'Open Sans', fontSize: '15px', padding: '15px' }}>
@@ -100,32 +128,58 @@ export default class JaxxConfigUpdater extends Component<{}, {}> {
                   </Typography>
                   <Divider></Divider>
                 </Grid>
-                <Grid item xs={12} style={{ minHeight: '200px' }}>
-                  
+                <Grid item xs={12} className="simple-scrollbar" style={{ minHeight: '0px', maxHeight: '50vh', background: '#272821', overflowY: 'auto' }}>
+
                 </Grid>
               </Grid>
             </Paper>
           </Grid>
 
-          {/* DIFF */}
+          {/* Page Priority */}
           <Grid item xs={4}>
-            <Paper className="config-box" elevation={0} square={true}>
+            <Paper className="config-box" elevation={6} square={true}>
               <Grid container>
                 <Grid item xs={12} style={{ position: 'relative' }}>
                   <Typography className="easy-font" style={{ fontFamily: 'Open Sans', fontSize: '15px', padding: '15px' }}>
-                    Diff
+                    Page Priority
                   </Typography>
                   <Divider></Divider>
                 </Grid>
-                <Grid item xs={12} style={{ minHeight: '200px' }}>
+                <Grid item xs={12} className="simple-scrollbar" style={{ minHeight: '0px', maxHeight: '50vh', background: '#272821' }}>
                   
                 </Grid>
               </Grid>
             </Paper>
           </Grid>
           
+        </Grid>  
 
-        </Grid>       
+        {/* ROW */}
+        <Grid container xs={3} spacing={2} style={{ marginBottom: '15px' }}>
+
+          {/* UPDATED CONFIG */}
+          <Grid item xs={12}>
+            <Paper className="config-box" elevation={6} square={true}>
+              <Grid container>
+                <Grid item xs={12} style={{ position: 'relative' }}>
+                  <Typography className="easy-font" style={{ fontFamily: 'Open Sans', fontSize: '15px', padding: '15px' }}>
+                    Updated Config
+                  </Typography>
+                  <Button variant="outlined" style={{ position: 'absolute', top: '10px', right: '10px' }}>
+                    <Typography className="easy-font" style={{ fontFamily: 'Open Sans', fontSize: '12px' }}>
+                      COPY
+                    </Typography>
+                  </Button>
+                  <Divider></Divider>
+                </Grid>
+                <Grid item xs={12} style={{ height: '70px' }}>
+                  <textarea className="config-textarea simple-scrollbar"></textarea>
+                </Grid>
+              </Grid>
+            </Paper>
+          </Grid>
+          
+        </Grid>        
 
       </Grid>
     );
