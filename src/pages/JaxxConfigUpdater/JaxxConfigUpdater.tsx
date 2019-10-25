@@ -548,21 +548,6 @@ export default class JaxxConfigUpdater extends Component<{}, State> {
   }
   handleLabInputChange(e: any) {
     this.setState({lab: e.target.value})
-    axios({
-      method: 'post',
-      url: 'https://api.confidentcannabis.com/support/lab/235/generate_pdf_config',
-      headers: {
-        'Accept': '*/*',
-        'Referer': 'https://internal.confidentcannabis.com/',
-        'Origin': 'https://internal.confidentcannabis.com',
-        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
-        'Sec-Fetch-Mode': 'cors',
-        'Content-Type': 'application/json',
-        'Cookie': 'cc_session_0=.eJwljjtuAzEMBe-iegtR_O9lDImk4LTruDJ89yyQ8g0Gg_dpj33V69nO3-tdR3v8ZDubZO-hmDw3WITByHAaVbHT5nSfgWjdrINXIhgApURyLiIXQZgbadxrdbWxpnTtJl1Ql2WAVLguH3U7Ijw4WQV5VrmzpbSjvV91_Z8ZbionIwsp3h1lMhREItaxBW6iOBQUCbkrEWBitu8fThE50g.EJPhlQ.BPhnT6HYcYVjkTrm0lMlOiy4KqnXxeG03K0wGtuVg-Y'
-      }
-    }).then((res) => {
-      console.log(res)
-    })
   }
   handleOldConfigChange(e: any) {
     this.setState({oldConfig: JSON.parse(e.target.value)})
@@ -572,8 +557,10 @@ export default class JaxxConfigUpdater extends Component<{}, State> {
   }
   handleGetConfig() {
     const self = this;
-    if (self.state.lab.length <= 0) {
-      return;
+    if (self.state.lab.length > 0) {
+      axios.get(`/api/get-lab-internal-config?lab=${self.state.lab}`).then((response) => {
+        console.log(response)
+      });
     }
   }
   handleCombine() {
