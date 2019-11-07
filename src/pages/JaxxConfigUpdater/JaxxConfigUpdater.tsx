@@ -8,6 +8,7 @@ import CompareArrowsOutlinedIcon from '@material-ui/icons/CompareArrowsOutlined'
 import "./JaxxConfigUpdater.css";
 
 import axios from 'axios';
+import color from '@material-ui/core/colors/teal';
 
 interface State {
   lab: string,
@@ -15,6 +16,10 @@ interface State {
   internalConfig: any,
   updatedConfig: any,
   diff: any
+}
+
+function deepClone(stuff: any) {
+  return JSON.parse(JSON.stringify(stuff));
 }
 
 export default class JaxxConfigUpdater extends Component<{}, State> {
@@ -26,245 +31,456 @@ export default class JaxxConfigUpdater extends Component<{}, State> {
         "additional_files": "default/coa/templates/additional_files",
         "qc": "default/coa/templates/qc",
         "page_priority": [
-          "actoh/coa/templates/can-ter-combo",
-          "default/coa/templates/pes-mic-sol-hvy-myc",
-          "default/coa/templates/ter",
+          "atls/coa/templates/cover-can",
+          "atls/coa/templates/mic-myc",
+          "default/coa/templates/hvy",
           "default/coa/templates/pes",
-          "default/coa/templates/myc"
+          "default/coa/templates/sol",
+          "default/coa/templates/ter"
         ],
         "packages": {
-          "34844": {
-            "name": "demo",
+          "47435": {
+            "name": "I-502 Initial Panel *or Other Material That Will Not Be Extracted",
             "pages": [
-              "actoh/coa/templates/can-ter-combo",
-              "default/coa/templates/pes-mic-sol-hvy-myc"
+              "atls/coa/templates/cover-can",
+              "atls/coa/templates/mic-myc"
+            ],
+            "test_types": [
+              "MIC-R",
+              "FMI",
+              "WA",
+              "CAN"
+            ]
+          },
+          "47436": {
+            "name": "I-502 Panel Flower",
+            "pages": [
+              "atls/coa/templates/cover-can",
+              "atls/coa/templates/mic-myc"
+            ],
+            "test_types": [
+              "CAN",
+              "MYC",
+              "MIC-R",
+              "WA",
+              "H20",
+              "FMI"
+            ]
+          },
+          "47440": {
+            "name": "I-502 Panel Concentrate",
+            "pages": [
+              "atls/coa/templates/cover-can",
+              "atls/coa/templates/mic-myc",
+              "default/coa/templates/sol"
+            ],
+            "test_types": [
+              "CAN",
+              "SOL-R",
+              "MYC"
+            ]
+          },
+          "47443": {
+            "name": "I-502 Cannabinoid (Potency Only)",
+            "pages": [
+              "atls/coa/templates/cover-can"
+            ],
+            "test_types": [
+              "CAN"
+            ]
+          },
+          "47444": {
+            "name": "I-502 Cannabinoid (Potency Only)",
+            "pages": [
+              "atls/coa/templates/cover-can"
+            ],
+            "test_types": [
+              "CAN"
+            ]
+          },
+          "47445": {
+            "name": "I-502 Tincture (Potency Only)",
+            "pages": [
+              "atls/coa/templates/cover-can"
+            ],
+            "test_types": [
+              "CAN"
+            ]
+          },
+          "47479": {
+            "name": "I-502 Panel Flower + Terpenes",
+            "pages": [
+              "atls/coa/templates/cover-can",
+              "atls/coa/templates/mic-myc",
+              "default/coa/templates/ter"
+            ],
+            "test_types": [
+              "FMI",
+              "MYC",
+              "TER",
+              "CAN"
+            ]
+          },
+          "47482": {
+            "name": "I-502 Panel Concentrate + Terpenes",
+            "pages": [
+              "atls/coa/templates/cover-can",
+              "atls/coa/templates/mic-myc",
+              "default/coa/templates/sol",
+              "default/coa/templates/ter"
+            ],
+            "test_types": [
+              "SOL-R",
+              "MYC",
+              "TER",
+              "CAN"
+            ]
+          },
+          "47484": {
+            "name": "I-502 Panel Flower + Pesticides",
+            "pages": [
+              "atls/coa/templates/cover-can",
+              "atls/coa/templates/mic-myc",
+              "default/coa/templates/pes",
+              "default/coa/templates/ter"
+            ],
+            "test_types": [
+              "CAN",
+              "MYC",
+              "MIC-R",
+              "WA",
+              "H20",
+              "PES-R",
+              "FMI"
+            ]
+          },
+          "47485": {
+            "name": "I-502 Panel Concentrate + Pesticides",
+            "pages": [
+              "atls/coa/templates/cover-can",
+              "atls/coa/templates/mic-myc",
+              "default/coa/templates/pes",
+              "default/coa/templates/sol"
+            ],
+            "test_types": [
+              "PES-R",
+              "SOL-R",
+              "MYC",
+              "CAN"
+            ]
+          },
+          "47486": {
+            "name": "I-502 Panel Flower + Pesticides + Terpenes",
+            "pages": [
+              "atls/coa/templates/cover-can",
+              "atls/coa/templates/mic-myc",
+              "default/coa/templates/pes",
+              "default/coa/templates/ter"
             ],
             "test_types": [
               "CAN",
               "TER",
-              "HVY",
               "MYC",
               "MIC-R",
-              "SOL-R",
-              "WA"
+              "WA",
+              "H20",
+              "PES-R",
+              "FMI"
             ]
           },
-          "35087": {
-            "name": "Concentrate Full Bundle",
+          "47487": {
+            "name": "I-502 Panel Concentrate + Pesticides + Terpenes",
             "pages": [
-              "actoh/coa/templates/can-ter-combo",
-              "default/coa/templates/pes-mic-sol-hvy-myc"
+              "atls/coa/templates/cover-can",
+              "atls/coa/templates/mic-myc",
+              "default/coa/templates/pes",
+              "default/coa/templates/sol",
+              "default/coa/templates/ter"
             ],
             "test_types": [
-              "MYC",
+              "PES-R",
               "TER",
               "SOL-R",
-              "MIC-R",
-              "HVY",
-              "FMI",
-              "CAN"
-            ]
-          },
-          "35116": {
-            "name": "Potency Only",
-            "pages": [
-              "actoh/coa/templates/can-ter-combo"
-            ],
-            "test_types": [
-              "FMI",
-              "CAN"
-            ]
-          },
-          "35118": {
-            "name": "Terpenes Only",
-            "pages": [
-              "actoh/coa/templates/can-ter-combo"
-            ],
-            "test_types": [
-              "FMI"
-            ]
-          },
-          "35119": {
-            "name": "Microbial Only",
-            "pages": [
-              "actoh/coa/templates/can-ter-combo",
-              "default/coa/templates/pes-mic-sol-hvy-myc"
-            ],
-            "test_types": [
-              "FMI",
-              "MIC-R"
-            ]
-          },
-          "35120": {
-            "name": "Pesticide Only",
-            "pages": [
-              "actoh/coa/templates/can-ter-combo",
-              "default/coa/templates/pes-mic-sol-hvy-myc"
-            ],
-            "test_types": [
-              "FMI",
-              "PES-R"
-            ]
-          },
-          "35122": {
-            "name": "Mycotoxins Only",
-            "pages": [
-              "actoh/coa/templates/can-ter-combo",
-              "default/coa/templates/pes-mic-sol-hvy-myc"
-            ],
-            "test_types": [
               "MYC",
-              "FMI"
+              "CAN"
             ]
           },
-          "35151": {
-            "name": "Residual Solvents Only",
+          "47488": {
+            "name": "I-502 Panel Flower + Pesticides + Heavy Metals",
             "pages": [
-              "actoh/coa/templates/can-ter-combo",
-              "default/coa/templates/pes-mic-sol-hvy-myc"
+              "atls/coa/templates/cover-can",
+              "default/coa/templates/mic",
+              "default/coa/templates/myc",
+              "default/coa/templates/hvy",
+              "default/coa/templates/pes"
+            ],
+            "test_types": [
+              "FMI",
+              "PES-R",
+              "H20",
+              "WA",
+              "MIC-R",
+              "MYC",
+              "HVY",
+              "CAN"
+            ]
+          },
+          "47489": {
+            "name": "I-502 Panel Concentrate + Pesticides + Heavy Metals",
+            "pages": [
+              "atls/coa/templates/cover-can",
+              "atls/coa/templates/mic-myc",
+              "default/coa/templates/hvy",
+              "default/coa/templates/pes",
+              "default/coa/templates/sol"
+            ],
+            "test_types": [
+              "PES-R",
+              "SOL-R",
+              "MYC",
+              "HVY",
+              "CAN"
+            ]
+          },
+          "47490": {
+            "name": "I-502 Panel Flower + Pesticides + Heavy Metals + Terpenes",
+            "pages": [
+              "atls/coa/templates/cover-can",
+              "atls/coa/templates/mic-myc",
+              "default/coa/templates/hvy",
+              "default/coa/templates/pes",
+              "default/coa/templates/ter"
+            ],
+            "test_types": [
+              "FMI",
+              "PES-R",
+              "H20",
+              "WA",
+              "MIC-R",
+              "MYC",
+              "HVY",
+              "TER",
+              "CAN"
+            ]
+          },
+          "47491": {
+            "name": "I-502 Panel Concentrates + Pesticides + Heavy Metals + Terpenes",
+            "pages": [
+              "atls/coa/templates/cover-can",
+              "atls/coa/templates/mic-myc",
+              "default/coa/templates/hvy",
+              "default/coa/templates/pes",
+              "default/coa/templates/sol",
+              "default/coa/templates/ter"
+            ],
+            "test_types": [
+              "PES-R",
+              "SOL-R",
+              "TER",
+              "HVY",
+              "MYC",
+              "CAN"
+            ]
+          },
+          "47492": {
+            "name": "Cannabinoid Profile Flower or Concentrate",
+            "pages": [
+              "atls/coa/templates/cover-can"
+            ],
+            "test_types": [
+              "CAN"
+            ]
+          },
+          "47493": {
+            "name": "Terpene Profile Flower or Concentrate",
+            "pages": [
+              "default/coa/templates/ter"
+            ],
+            "test_types": [
+              "TER"
+            ]
+          },
+          "47494": {
+            "name": "Residual Solvent Analysis",
+            "pages": [
+              "default/coa/templates/sol"
             ],
             "test_types": [
               "SOL-R"
             ]
           },
-          "35152": {
-            "name": "Moisture Only",
+          "47495": {
+            "name": "Microbial Analysis",
             "pages": [
-              "actoh/coa/templates/can-ter-combo"
+              "atls/coa/templates/mic-myc"
             ],
             "test_types": [
-              "H20"
+              "MIC-R"
             ]
           },
-          "35153": {
-            "name": "Water Activity Only",
+          "47496": {
+            "name": "Microbial Analysis",
             "pages": [
-              "actoh/coa/templates/can-ter-combo"
+              "atls/coa/templates/mic-myc"
             ],
             "test_types": [
-              "WA"
+              "MIC-A",
+              "MIC-R"
             ]
           },
-          "35963": {
-            "name": "Infused Product Full Bundle",
+          "47497": {
+            "name": "Mycotoxin Analysis Flower or Concentrate",
             "pages": [
-              "actoh/coa/templates/can-ter-combo",
-              "default/coa/templates/pes-mic-sol-hvy-myc"
+              "atls/coa/templates/mic-myc"
             ],
             "test_types": [
-              "MIC-R",
-              "CAN"
+              "MYC"
             ]
           },
-          "36008": {
-            "name": "Flower to Processor Bundle",
+          "47499": {
+            "name": "Pesticides Flower or Concentrate",
             "pages": [
-              "actoh/coa/templates/can-ter-combo",
-              "default/coa/templates/pes-mic-sol-hvy-myc"
+              "default/coa/templates/pes"
             ],
             "test_types": [
-              "PES-R",
-              "CAN"
+              "PES-R"
             ]
           },
-          "37564": {
-            "name": "Heavy Metals Only",
+          "47500": {
+            "name": "Heavy Metals (DOH Compliant)",
             "pages": [
-              "default/coa/templates/pes-mic-sol-hvy-myc"
+              "default/coa/templates/hvy"
             ],
             "test_types": [
               "HVY"
             ]
           },
-          "42256": {
-            "name": "Final Infused Product \"Post Test\" - Oil was tested prior",
+          "47502": {
+            "name": "2-Day Rush",
+            "pages": "empty",
+            "test_types": [
+              "OTHER"
+            ]
+          },
+          "47503": {
+            "name": "3-Day Rush",
+            "pages": "empty",
+            "test_types": [
+              "OTHER"
+            ]
+          },
+          "47504": {
+            "name": "Combination",
+            "pages": "empty",
+            "test_types": [
+              "OTHER"
+            ]
+          },
+          "47505": {
+            "name": "Hemp Analysis",
             "pages": [
-              "actoh/coa/templates/can-ter-combo",
-              "default/coa/templates/pes-mic-sol-hvy-myc"
+              "atls/coa/templates/cover-can"
             ],
             "test_types": [
-              "FMI",
-              "MIC-R",
               "CAN"
             ]
           },
-          "42257": {
-            "name": "Final Infused Product \"Pre Test\" - Oil was not tested Prior",
+          "47506": {
+            "name": "Hemp Analysis",
             "pages": [
-              "actoh/coa/templates/can-ter-combo",
-              "default/coa/templates/pes-mic-sol-hvy-myc"
+              "atls/coa/templates/cover-can",
+              "default/coa/templates/ter"
+            ],
+            "test_types": [
+              "TER",
+              "CAN"
+            ]
+          },
+          "53546": {
+            "name": "Hemp 1-Day Rush",
+            "pages": [
+              "atls/coa/templates/cover-can"
+            ],
+            "test_types": [
+              "CAN"
+            ]
+          },
+          "53578": {
+            "name": "Hemp 2-Day Rush",
+            "pages": [
+              "atls/coa/templates/cover-can"
+            ],
+            "test_types": [
+              "CAN"
+            ]
+          },
+          "53787": {
+            "name": "Hemp Analysis RSA",
+            "pages": [
+              "default/coa/templates/sol"
+            ],
+            "test_types": [
+              "SOL-R",
+              "SOL-A"
+            ]
+          },
+          "53823": {
+            "name": "Hemp Potency + RSA",
+            "pages": [
+              "atls/coa/templates/cover-can",
+              "default/coa/templates/sol"
             ],
             "test_types": [
               "CAN",
-              "HVY",
-              "MYC",
+              "SOL-R"
+            ]
+          },
+          "54501": {
+            "name": "R&D In-House QC Samples",
+            "pages": [
+              {
+                "page": "atls/coa/templates/cover-can",
+                "options": {
+                  "regulatory_type": "non-regulatory"
+                }
+              },
+              {
+                "page": "atls/coa/templates/mic-myc",
+                "options": {
+                  "regulatory_type": "non-regulatory"
+                }
+              },
+              {
+                "page": "default/coa/templates/pes",
+                "options": {
+                  "regulatory_type": "non-regulatory"
+                }
+              },
+              {
+                "page": "default/coa/templates/sol",
+                "options": {
+                  "regulatory_type": "non-regulatory"
+                }
+              },
+              {
+                "page": "default/coa/templates/ter",
+                "options": {
+                  "regulatory_type": "non-regulatory"
+                }
+              }
+            ],
+            "test_types": [
+              "OTHER",
+              "FMI",
+              "H20",
+              "WA",
               "SOL-R",
-              "PES-R",
-              "FMI"
-            ]
-          },
-          "42258": {
-            "name": "Hydrocarbon / Other Methods Extract",
-            "pages": [
-              "actoh/coa/templates/can-ter-combo",
-              "default/coa/templates/pes-mic-sol-hvy-myc"
-            ],
-            "test_types": [
-              "FMI",
-              "PES-R",
-              "SOL-R",
-              "MYC",
-              "HVY",
-              "TER",
-              "CAN"
-            ]
-          },
-          "42259": {
-            "name": "Carbon Dioxide Extract",
-            "pages": [
-              "actoh/coa/templates/can-ter-combo",
-              "default/coa/templates/pes-mic-sol-hvy-myc"
-            ],
-            "test_types": [
-              "TER",
-              "PES-R",
-              "MYC",
-              "HVY",
-              "FMI",
-              "CAN"
-            ]
-          },
-          "42260": {
-            "name": "Other Method Extract",
-            "pages": [
-              "actoh/coa/templates/can-ter-combo",
-              "default/coa/templates/pes-mic-sol-hvy-myc"
-            ],
-            "test_types": [
               "MIC-R",
-              "FMI",
-              "PES-R",
+              "SOL-A",
+              "MIC-A",
               "MYC",
-              "HVY",
               "TER",
               "CAN"
-            ]
-          },
-          "45400": {
-            "name": "Kief Full Bundle",
-            "pages": [
-              "actoh/coa/templates/can-ter-combo",
-              "default/coa/templates/pes-mic-sol-hvy-myc",
-              "default/coa/templates/myc"
-            ],
-            "test_types": [
-              "CAN",
-              "TER",
-              "HVY",
-              "MYC",
-              "MIC-R",
-              "PES-R",
-              "FMI"
             ]
           }
         }
@@ -272,267 +488,376 @@ export default class JaxxConfigUpdater extends Component<{}, State> {
       internalConfig: {
         "additional_files": "default/coa/templates/additional_files",
         "qc": "default/coa/templates/qc",
-        "page_priority": [
-          "actoh/coa/templates/can-ter-combo",
-          "default/coa/templates/pes-mic-sol-hvy-myc",
-          "default/coa/templates/ter",
-          "default/coa/templates/pes",
-          "default/coa/templates/myc"
-        ],
+        "page_priority": [],
         "packages": {
-          "34844": {
-            "name": "demo",
-            "pages": [
-              "actoh/coa/templates/can-ter-combo",
-              "default/coa/templates/pes-mic-sol-hvy-myc"
-            ],
+          "47435": {
+            "name": "I-502 Initial Panel *or Other Material That Will Not Be Extracted",
+            "pages": [],
+            "test_types": [
+              "MIC-R",
+              "FMI",
+              "WA",
+              "H20",
+              "MYC",
+              "CAN"
+            ]
+          },
+          "47436": {
+            "name": "I-502 Panel Flower",
+            "pages": [],
             "test_types": [
               "CAN",
-              "TER",
-              "HVY",
               "MYC",
               "MIC-R",
+              "WA",
+              "H20",
+              "FMI"
+            ]
+          },
+          "47440": {
+            "name": "I-502 Panel Concentrate",
+            "pages": [],
+            "test_types": [
+              "CAN",
               "SOL-R",
+              "MYC"
+            ]
+          },
+          "47443": {
+            "name": "I-502 Cannabinoid (Potency Only)",
+            "pages": [],
+            "test_types": [
+              "CAN"
+            ]
+          },
+          "47444": {
+            "name": "I-502 Cannabinoid (Potency Only)",
+            "pages": [],
+            "test_types": [
+              "CAN"
+            ]
+          },
+          "47445": {
+            "name": "I-502 Tincture (Potency Only)",
+            "pages": [],
+            "test_types": [
+              "CAN"
+            ]
+          },
+          "47479": {
+            "name": "I-502 Panel Flower + Terpenes",
+            "pages": [],
+            "test_types": [
+              "FMI",
+              "H20",
+              "WA",
+              "MIC-R",
+              "MYC",
+              "TER",
+              "CAN"
+            ]
+          },
+          "47482": {
+            "name": "I-502 Panel Concentrate + Terpenes",
+            "pages": [],
+            "test_types": [
+              "SOL-R",
+              "MYC",
+              "TER",
+              "CAN"
+            ]
+          },
+          "47484": {
+            "name": "I-502 Panel Flower + Pesticides",
+            "pages": [],
+            "test_types": [
+              "CAN",
+              "MYC",
+              "MIC-R",
               "WA",
               "H20",
               "PES-R",
               "FMI"
             ]
           },
-          "35086": {
-            "name": "Flower Full Bundle",
+          "47485": {
+            "name": "I-502 Panel Concentrate + Pesticides",
+            "pages": [],
+            "test_types": [
+              "PES-R",
+              "SOL-R",
+              "MYC",
+              "CAN"
+            ]
+          },
+          "47486": {
+            "name": "I-502 Panel Flower + Pesticides + Terpenes",
+            "pages": [],
+            "test_types": [
+              "CAN"
+            ]
+          },
+          "47487": {
+            "name": "I-502 Panel Concentrate + Pesticides + Terpenes",
+            "pages": [],
+            "test_types": [
+              "PES-R",
+              "TER",
+              "SOL-R",
+              "MYC",
+              "CAN"
+            ]
+          },
+          "47488": {
+            "name": "I-502 Panel Flower + Pesticides + Heavy Metals",
             "pages": [
-              "actoh/coa/templates/can-ter-combo",
-              "default/coa/templates/pes-mic-sol-hvy-myc"
+              "atls/coa/templates/cover-can",
+              "default/coa/templates/mic",
+              "default/coa/templates/myc",
+              "default/coa/templates/hvy",
+              "default/coa/templates/pes"
             ],
             "test_types": [
-              "CAN",
-              "TER",
-              "HVY",
-              "MYC",
+              "FMI",
               "PES-R",
               "H20",
               "WA",
               "MIC-R",
-              "FMI"
-            ]
-          },
-          "35087": {
-            "name": "Concentrate Full Bundle",
-            "pages": [
-              "actoh/coa/templates/can-ter-combo",
-              "default/coa/templates/pes-mic-sol-hvy-myc"
-            ],
-            "test_types": [
               "MYC",
-              "TER",
-              "SOL-R",
-              "PES-R",
-              "MIC-R",
               "HVY",
-              "FMI",
               "CAN"
             ]
           },
-          "35116": {
-            "name": "Potency Only",
-            "pages": [
-              "actoh/coa/templates/can-ter-combo"
-            ],
+          "47489": {
+            "name": "I-502 Panel Concentrate + Pesticides + Heavy Metals",
+            "pages": [],
             "test_types": [
-              "FMI",
+              "PES-R",
+              "SOL-R",
+              "MYC",
+              "HVY",
               "CAN"
             ]
           },
-          "35118": {
-            "name": "Terpenes Only",
-            "pages": [
-              "actoh/coa/templates/can-ter-combo"
-            ],
+          "47490": {
+            "name": "I-502 Panel Flower + Pesticides + Heavy Metals + Terpenes",
+            "pages": [],
             "test_types": [
               "FMI",
+              "PES-R",
+              "H20",
+              "WA",
+              "TER",
+              "CAN"
+            ]
+          },
+          "47491": {
+            "name": "I-502 Panel Concentrates + Pesticides + Heavy Metals + Terpenes",
+            "pages": [],
+            "test_types": [
+              "PES-R",
+              "SOL-R",
+              "TER",
+              "HVY",
+              "MYC",
+              "CAN"
+            ]
+          },
+          "47492": {
+            "name": "Cannabinoid Profile Flower or Concentrate",
+            "pages": [],
+            "test_types": [
+              "CAN"
+            ]
+          },
+          "47493": {
+            "name": "Terpene Profile Flower or Concentrate",
+            "pages": [],
+            "test_types": [
               "TER"
             ]
           },
-          "35119": {
-            "name": "Microbial Only",
+          "47494": {
+            "name": "Residual Solvent Analysis",
             "pages": [
-              "actoh/coa/templates/can-ter-combo",
-              "default/coa/templates/pes-mic-sol-hvy-myc"
-            ],
-            "test_types": [
-              "FMI",
-              "MIC-R"
-            ]
-          },
-          "35120": {
-            "name": "Pesticide Only",
-            "pages": [
-              "actoh/coa/templates/can-ter-combo",
-              "default/coa/templates/pes-mic-sol-hvy-myc"
-            ],
-            "test_types": [
-              "FMI",
-              "PES-R"
-            ]
-          },
-          "35122": {
-            "name": "Mycotoxins Only",
-            "pages": [
-              "actoh/coa/templates/can-ter-combo",
-              "default/coa/templates/pes-mic-sol-hvy-myc"
-            ],
-            "test_types": [
-              "MYC",
-              "FMI"
-            ]
-          },
-          "35151": {
-            "name": "Residual Solvents Only",
-            "pages": [
-              "actoh/coa/templates/can-ter-combo",
-              "default/coa/templates/pes-mic-sol-hvy-myc"
+              "default/coa/templates/sol"
             ],
             "test_types": [
               "SOL-R"
             ]
           },
-          "35152": {
-            "name": "Moisture Only",
+          "47495": {
+            "name": "Microbial Analysis",
+            "pages": [],
+            "test_types": [
+              "MIC-R"
+            ]
+          },
+          "47496": {
+            "name": "Microbial Analysis",
+            "pages": [],
+            "test_types": [
+              "MIC-A",
+              "MIC-R"
+            ]
+          },
+          "47497": {
+            "name": "Mycotoxin Analysis Flower or Concentrate",
+            "pages": [],
+            "test_types": [
+              "MYC"
+            ]
+          },
+          "47498": {
+            "name": "Moisture % + Water Activity Flower",
             "pages": [
-              "actoh/coa/templates/can-ter-combo"
+              "atls/coa/templates/cover-can"
             ],
             "test_types": [
+              "WA",
               "H20"
             ]
           },
-          "35153": {
-            "name": "Water Activity Only",
+          "47499": {
+            "name": "Pesticides Flower or Concentrate",
             "pages": [
-              "actoh/coa/templates/can-ter-combo"
+              "default/coa/templates/pes"
             ],
             "test_types": [
-              "WA"
+              "PES-R"
             ]
           },
-          "35963": {
-            "name": "Infused Product Full Bundle",
+          "47500": {
+            "name": "Heavy Metals (DOH Compliant)",
             "pages": [
-              "actoh/coa/templates/can-ter-combo",
-              "default/coa/templates/pes-mic-sol-hvy-myc"
-            ],
-            "test_types": [
-              "MIC-R",
-              "CAN"
-            ]
-          },
-          "36008": {
-            "name": "Flower to Processor Bundle",
-            "pages": [
-              "actoh/coa/templates/can-ter-combo",
-              "default/coa/templates/pes-mic-sol-hvy-myc"
-            ],
-            "test_types": [
-              "PES-R",
-              "CAN"
-            ]
-          },
-          "37564": {
-            "name": "Heavy Metals Only",
-            "pages": [
-              "default/coa/templates/pes-mic-sol-hvy-myc"
+              "default/coa/templates/hvy"
             ],
             "test_types": [
               "HVY"
             ]
           },
-          "42256": {
-            "name": "Final Infused Product \"Post Test\" - Oil was tested prior",
+          "47501": {
+            "name": "1-Day Rush",
+            "pages": "empty",
+            "test_types": [
+              "OTHER"
+            ]
+          },
+          "47502": {
+            "name": "2-Day Rush",
+            "pages": "empty",
+            "test_types": [
+              "OTHER"
+            ]
+          },
+          "47503": {
+            "name": "3-Day Rush",
+            "pages": "empty",
+            "test_types": [
+              "OTHER"
+            ]
+          },
+          "47504": {
+            "name": "Combination",
+            "pages": "empty",
+            "test_types": [
+              "OTHER"
+            ]
+          },
+          "47505": {
+            "name": "Hemp Analysis",
             "pages": [
-              "actoh/coa/templates/can-ter-combo",
-              "default/coa/templates/pes-mic-sol-hvy-myc"
+              "atls/coa/templates/cover-can"
             ],
             "test_types": [
-              "FMI",
-              "MIC-R",
               "CAN"
             ]
           },
-          "42257": {
-            "name": "Final Infused Product \"Pre Test\" - Oil was not tested Prior",
+          "47506": {
+            "name": "Hemp Analysis",
             "pages": [
-              "actoh/coa/templates/can-ter-combo",
-              "default/coa/templates/pes-mic-sol-hvy-myc"
+              "atls/coa/templates/cover-can",
+              "default/coa/templates/ter"
             ],
             "test_types": [
-              "CAN",
-              "HVY",
-              "MYC",
+              "TER",
+              "CAN"
+            ]
+          },
+          "53546": {
+            "name": "Hemp 1-Day Rush",
+            "pages": [
+              "atls/coa/templates/cover-can"
+            ],
+            "test_types": [
+              "CAN"
+            ]
+          },
+          "53578": {
+            "name": "Hemp 2-Day Rush",
+            "pages": [
+              "atls/coa/templates/cover-can"
+            ],
+            "test_types": [
+              "CAN"
+            ]
+          },
+          "53787": {
+            "name": "Hemp Analysis RSA",
+            "pages": [
+              "default/coa/templates/sol"
+            ],
+            "test_types": [
+              "SOL-R",
+              "SOL-A"
+            ]
+          },
+          "54501": {
+            "name": "R&D In-House QC Samples",
+            "pages": [
+              {
+                "page": "atls/coa/templates/cover-can",
+                "options": {
+                  "regulatory_type": "non-regulatory"
+                }
+              },
+              {
+                "page": "atls/coa/templates/mic-myc",
+                "options": {
+                  "regulatory_type": "non-regulatory"
+                }
+              },
+              {
+                "page": "default/coa/templates/pes",
+                "options": {
+                  "regulatory_type": "non-regulatory"
+                }
+              },
+              {
+                "page": "default/coa/templates/sol",
+                "options": {
+                  "regulatory_type": "non-regulatory"
+                }
+              },
+              {
+                "page": "default/coa/templates/ter",
+                "options": {
+                  "regulatory_type": "non-regulatory"
+                }
+              }
+            ],
+            "test_types": [
+              "OTHER",
+              "FMI",
+              "H20",
+              "WA",
               "SOL-R",
               "MIC-R",
-              "PES-R",
-              "FMI"
-            ]
-          },
-          "42258": {
-            "name": "Hydrocarbon / Other Methods Extract",
-            "pages": [
-              "actoh/coa/templates/can-ter-combo",
-              "default/coa/templates/pes-mic-sol-hvy-myc"
-            ],
-            "test_types": [
-              "FMI",
-              "PES-R",
-              "SOL-R",
-              "MYC"
-            ]
-          },
-          "42259": {
-            "name": "Carbon Dioxide Extract",
-            "pages": [
-              "actoh/coa/templates/can-ter-combo",
-              "default/coa/templates/pes-mic-sol-hvy-myc"
-            ],
-            "test_types": [
-              "TER",
-              "PES-R",
+              "SOL-A",
+              "MIC-A",
               "MYC",
-              "HVY",
-              "FMI",
-              "CAN"
-            ]
-          },
-          "42260": {
-            "name": "Other Method Extract",
-            "pages": [
-              "actoh/coa/templates/can-ter-combo",
-              "default/coa/templates/pes-mic-sol-hvy-myc"
-            ],
-            "test_types": [
-              "MIC-R",
-              "FMI",
-              "PES-R",
-              "MYC",
-              "HVY",
               "TER",
               "CAN"
-            ]
-          },
-          "45400": {
-            "name": "Kief Full Bundle",
-            "pages": [
-              "actoh/coa/templates/can-ter-combo",
-              "default/coa/templates/pes-mic-sol-hvy-myc",
-              "default/coa/templates/myc"
-            ],
-            "test_types": [
-              "CAN",
-              "TER",
-              "HVY",
-              "MYC",
-              "MIC-R",
-              "PES-R",
-              "FMI"
             ]
           }
         }
@@ -572,7 +897,7 @@ export default class JaxxConfigUpdater extends Component<{}, State> {
     updatedConfig.additional_files = oldConfig.additional_files;
     updatedConfig.qc = oldConfig.qc;
     updatedConfig.page_priority = oldConfig.page_priority;
-    updatedConfig.packages = oldConfig.packages;
+    updatedConfig.packages = deepClone(oldConfig.packages);
     
     // check for new test types
     for (let packageID in internalConfig.packages) {
@@ -582,7 +907,6 @@ export default class JaxxConfigUpdater extends Component<{}, State> {
         diff[packageID] = {
           isNewPackage: 1
         };
-        updatedConfig.packages[packageID] = internalConfig.packages[packageID];
       } else {
         diff[packageID] = {
           isNewPackage: 0
@@ -598,7 +922,7 @@ export default class JaxxConfigUpdater extends Component<{}, State> {
 
       for (let i = 0; i < internalConfig.packages[packageID].test_types.length; i++) {
         // skip new packages
-        if (diff[packageID] === 1) {
+        if (diff[packageID].isNewPackage === 1) {
           continue;
         }
 
@@ -609,37 +933,97 @@ export default class JaxxConfigUpdater extends Component<{}, State> {
         // check if package's test_type is new
         if (oldConfig.packages[packageID].test_types.indexOf(internalConfig.packages[packageID].test_types[i]) === -1) {
           diff[packageID].tests[internalConfig.packages[packageID].test_types[i]] = 1
-          updatedConfig.packages[packageID].test_types.push(internalConfig.packages[packageID].test_types[i]);
         } else {
           diff[packageID].tests[internalConfig.packages[packageID].test_types[i]] = 0
         }
       }
+      updatedConfig.packages[packageID] = deepClone(internalConfig.packages[packageID]);
     }
-    
-    console.log(diff)
 
+     // check for deleted test types
+     for (let packageID in oldConfig.packages) {
+      // check if deleted test package
+      if (!internalConfig.packages[packageID]) {
+        // if new package, add it
+        diff[packageID] = {
+          isNewPackage: -1
+        };
+      }
 
-    /*"34844": {
-      "name": "demo",
-      "pages": [
-        "actoh/coa/templates/can-ter-combo",
-        "default/coa/templates/pes-mic-sol-hvy-myc"
-      ],
-      "test_types": [
-        "CAN",
-        "TER",
-        "HVY",
-        "MYC",
-        "MIC-R",
-        "SOL-R",
-        "WA",
-        "H20",
-        "PES-R",
-        "FMI"
-      ]
-    }*/
+      for (let i = 0; i < oldConfig.packages[packageID].test_types.length; i++) {
+        // skip deleted packages
+        if (diff[packageID].isNewPackage === -1) {
+          continue;
+        }
 
+        if (!diff[packageID].tests) {
+          diff[packageID].tests = {};
+        }
 
+        // check if package's test_type is new
+        if (internalConfig.packages[packageID].test_types.indexOf(oldConfig.packages[packageID].test_types[i]) === -1) {
+          diff[packageID].tests[oldConfig.packages[packageID].test_types[i]] = -1
+        }
+      }
+      updatedConfig.packages[packageID].pages = deepClone(oldConfig.packages[packageID].pages);
+    }
+
+    console.log(updatedConfig)
+
+    this.setState({ updatedConfig, diff })
+  }
+  renderPagePriority() {
+    return this.state.updatedConfig.page_priority.map((page: string, index: number) => {
+      return (
+        <Grid item xs={12} key={index}>
+          <Paper elevation={1} square={true} style={{ background: 'white', position: 'relative', margin: '10px', padding: '6px' }}>
+            <Typography className="easy-font" style={{ fontFamily: 'Open Sans', fontSize: '12px', padding: '2px 5px' }}>
+              {page}
+            </Typography>
+          </Paper>
+        </Grid>
+      )
+    });
+  }
+  renderPackages() {
+    let packages = [];
+    for (let id in this.state.updatedConfig.packages) {
+      if (!this.state.diff[id]) { continue; }
+      packages.push(
+        <Grid item xs={12} key={id}>
+          <Paper elevation={1} square={true} style={{ background: 'white', position: 'relative', margin: '10px', padding: '6px' }}>
+            <Typography  className="easy-font" style={{ marginBottom: '25px', fontFamily: 'Open Sans', fontSize: '12px', padding: '2px 5px' }}>
+              {id} | {this.state.updatedConfig.packages[id].name}
+            </Typography>
+            <Grid item xs={12}>
+              {this.renderTestTypes(this.state.diff[id].tests)}
+            </Grid>
+          </Paper>
+        </Grid>
+      );
+    }
+    return packages;
+  }
+  renderTestTypes(tests: any) {
+    let testStatuses: any = [];
+    let colorMap: any = {0: 'transparent', 1: 'rgba(0,255,0,0.15)', '-1': 'rgba(255,0,0,0.15)' };
+
+    for (let test in tests) {
+      const status: number = tests[test];
+      const color: string = colorMap[status];
+      let style: any = {
+        display: 'inline-block',
+        fontSize: '12px',
+        border: '1px solid rgba(0,0,0,0.25)',
+        color: 'rgba(0,0,0,0.5)',
+        borderRadius: '5px',
+        padding: '5px 10px',
+        margin: '1px',
+        background: color
+      };
+      testStatuses.push(<span style={style} key={test}>{test}</span>);
+    }
+    return testStatuses;
   }
   render() {
     return (
@@ -731,8 +1115,8 @@ export default class JaxxConfigUpdater extends Component<{}, State> {
                   </Typography>
                   <Divider></Divider>
                 </Grid>
-                <Grid item xs={12} className="simple-scrollbar" style={{ minHeight: '0px', maxHeight: '50vh', background: '#272821', overflowY: 'auto' }}>
-
+                <Grid item xs={12} className="simple-scrollbar" style={{ minHeight: '0px', maxHeight: '50vh', background: 'white', overflowY: 'auto' }}>
+                  {this.renderPackages()}
                 </Grid>
               </Grid>
             </Paper>
@@ -748,8 +1132,8 @@ export default class JaxxConfigUpdater extends Component<{}, State> {
                   </Typography>
                   <Divider></Divider>
                 </Grid>
-                <Grid item xs={12} className="simple-scrollbar" style={{ minHeight: '0px', maxHeight: '50vh', background: '#272821' }}>
-                  
+                <Grid item xs={12} className="simple-scrollbar" style={{ minHeight: '0px', maxHeight: '50vh', background: 'white' }}>
+                  {this.renderPagePriority()}
                 </Grid>
               </Grid>
             </Paper>
