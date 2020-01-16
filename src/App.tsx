@@ -26,7 +26,7 @@ import {
 } from "react-router-dom";
 
 import JaxxConfigUpdater from "./pages/JaxxConfigUpdater/JaxxConfigUpdater";
-import Test from "./pages/Test/Test";
+import Test from "./pages/AnalyteFinder/AnalyteFinder";
 
 import "./App.css";
 
@@ -103,7 +103,7 @@ const App: React.FC = (props: any, state: any) => {
             />
           </ListItem>
         </Link>
-        <Link to="/test" style={{ textDecoration: "none" }}>
+        <Link to="/analytefinder" style={{ textDecoration: "none" }}>
           <ListItem button>
             <ListItemText
               disableTypography
@@ -112,7 +112,7 @@ const App: React.FC = (props: any, state: any) => {
                   className={classes.typography}
                   style={{ fontSize: "14px" }}
                 >
-                  Test
+                  Analyte Finder
                 </Typography>
               }
             />
@@ -185,7 +185,7 @@ const App: React.FC = (props: any, state: any) => {
               <Route path="/jaxxconfigupdater">
                 <JaxxConfigUpdater />
               </Route>
-              <Route path="/test">
+              <Route path="/analytefinder">
                 <Test />
               </Route>
               <Route exact path="/">

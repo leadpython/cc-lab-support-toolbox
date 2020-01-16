@@ -12,7 +12,7 @@ const HEADERS = {
   'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
   'Sec-Fetch-Mode': 'cors',
   'Content-Type': 'application/json',
-  'Cookie': 'cc_session_0=.eJwljjtuAzEMBe-iegtR_O9lDImk4LTruDJ89yyQ8g0Gg_dpj33V69nO3-tdR3v8ZDubZO-hmDw3WITByHAaVbHT5nSfgWjdrINXIhgApURyLiIXQZgbadxrdbWxpnTtJl1Ql2WAVLguH3U7Ijw4WQV5VrmzpbSjvV91_Z8ZbionIwsp3h1lMhREItaxBW6iOBQUCbkrEWBitu8fThE50g.EJPpfA.Db-pcJfQdDSYkVc-Hn8itQk80_RZNR8Mnxc8ppDLP88'
+  'Cookie': 'cc_session_0=.eJwlzj1uQzEMA-C7eM5gWT-U3mUCW7aRri_NVPTuNdCFALnw-ynPfa_3q1zf92c9yvNrlqvsqJPQzcNOrGqpVURrAwa3PTiUwLqN0_gUIFo657DZtVN46BAf7t6DRGaHuKlmE1VMpLKk-5g1R2XkCnUyQwTN5URSHuXzXvc_poXDLmU1AVdUqDif2wNC20ZnATcckLBWiBBPnuX3DyLMN-8.EPV-eg.6SZrW0JtwSloXm-S0GOhFKVKytQPHdg3KZeaTK8XOis'
 };
 
 // GET LAB CONFIG

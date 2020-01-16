@@ -8,7 +8,6 @@ import CompareArrowsOutlinedIcon from '@material-ui/icons/CompareArrowsOutlined'
 import "./JaxxConfigUpdater.css";
 
 import axios from 'axios';
-import color from '@material-ui/core/colors/teal';
 
 interface State {
   lab: string,
@@ -22,9 +21,15 @@ function deepClone(stuff: any) {
   return JSON.parse(JSON.stringify(stuff));
 }
 
+function copyToClipboard() {
+  document.execCommand('copy');
+}
+
 export default class JaxxConfigUpdater extends Component<{}, State> {
+  updatedConfigRef: any;
   constructor(props: any) {
     super(props);
+    this.updatedConfigRef = React.createRef();
     this.state = {
       lab: '',
       oldConfig: {
@@ -968,8 +973,6 @@ export default class JaxxConfigUpdater extends Component<{}, State> {
       updatedConfig.packages[packageID].pages = deepClone(oldConfig.packages[packageID].pages);
     }
 
-    console.log(updatedConfig)
-
     this.setState({ updatedConfig, diff })
   }
   renderPagePriority() {
@@ -985,6 +988,39 @@ export default class JaxxConfigUpdater extends Component<{}, State> {
       )
     });
   }
+  renderPackagePages(pages: any) {
+    const style: any = {
+      display: 'block',
+      width: '100%',
+      padding: '5px',
+      background: 'rgba(0,0,0,0.05)',
+      marginBottom: '2px'
+    };
+    if (typeof pages === 'string') {
+      return (
+        <div style={style}>
+          <Typography className="easy-font" style={{ fontFamily: 'Open Sans', fontSize: '12px' }}>
+            EMPTY
+          </Typography>
+        </div>  
+      );
+    }
+    return pages.map((page: any, index: number) => {
+      let pageName: string = '';
+      if (typeof page === 'string') {
+        pageName = page;
+      } else {
+        pageName = page.page;
+      }
+      return (
+        <div style={style} key={index}>
+          <Typography className="easy-font" style={{ fontFamily: 'Open Sans', fontSize: '12px' }}>
+            {pageName}
+          </Typography>
+        </div>  
+      )
+    });
+  }
   renderPackages() {
     let packages = [];
     for (let id in this.state.updatedConfig.packages) {
@@ -992,10 +1028,14 @@ export default class JaxxConfigUpdater extends Component<{}, State> {
       packages.push(
         <Grid item xs={12} key={id}>
           <Paper elevation={1} square={true} style={{ background: 'white', position: 'relative', margin: '10px', padding: '6px' }}>
-            <Typography  className="easy-font" style={{ marginBottom: '25px', fontFamily: 'Open Sans', fontSize: '12px', padding: '2px 5px' }}>
+            <Typography  className="easy-font" style={{ fontFamily: 'Open Sans', fontSize: '12px', padding: '2px 5px' }}>
               {id} | {this.state.updatedConfig.packages[id].name}
             </Typography>
-            <Grid item xs={12}>
+            <Grid container style={{ padding: '10px 0px' }}>
+              {this.renderPackagePages(this.state.updatedConfig.packages[id].pages)}
+              <Button variant="outlined" style={{ fontSize: '10px', width: '100%', borderRadius: '0px', fontWeight: 300 }}>Add Page</Button>
+            </Grid>
+            <Grid container>
               {this.renderTestTypes(this.state.diff[id].tests)}
             </Grid>
           </Paper>
@@ -1024,6 +1064,11 @@ export default class JaxxConfigUpdater extends Component<{}, State> {
       testStatuses.push(<span style={style} key={test}>{test}</span>);
     }
     return testStatuses;
+  }
+  copyToClipboard() {
+    // this.refs.updatedConfig.select();
+    this.updatedConfigRef.current.select();
+    copyToClipboard();
   }
   render() {
     return (
@@ -1152,7 +1197,7 @@ export default class JaxxConfigUpdater extends Component<{}, State> {
                   <Typography className="easy-font" style={{ fontFamily: 'Open Sans', fontSize: '15px', padding: '15px' }}>
                     Updated Config
                   </Typography>
-                  <Button variant="outlined" style={{ position: 'absolute', top: '10px', right: '10px' }}>
+                  <Button variant="outlined" style={{ position: 'absolute', top: '10px', right: '10px' }} onClick={() => this.copyToClipboard()}>
                     <Typography className="easy-font" style={{ fontFamily: 'Open Sans', fontSize: '12px' }}>
                       COPY
                     </Typography>
@@ -1160,7 +1205,7 @@ export default class JaxxConfigUpdater extends Component<{}, State> {
                   <Divider></Divider>
                 </Grid>
                 <Grid item xs={12} style={{ height: '70px' }}>
-                  <textarea className="config-textarea simple-scrollbar"></textarea>
+                  <textarea className="config-textarea simple-scrollbar" ref={this.updatedConfigRef} value={JSON.stringify(this.state.updatedConfig)}></textarea>
                 </Grid>
               </Grid>
             </Paper>
