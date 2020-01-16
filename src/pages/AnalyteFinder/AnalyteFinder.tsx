@@ -47,7 +47,7 @@ export default class AnalyteFinder extends Component<{}, State> {
       let results: any = []
       for (let j = 0; j < compounds.length; j++) {
         let similarityRatio = stringSimilarity.compareTwoStrings(searchTerm, compounds[j])
-        if (similarityRatio > 0.6) {
+        if (similarityRatio > 0.5) {
           results.push({ name: compounds[j], ratio: similarityRatio })
         }
       }
