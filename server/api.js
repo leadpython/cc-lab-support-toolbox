@@ -4,6 +4,7 @@ const _request = require('request');
 const { getTemplatesPath } = require('./methods.js');
 const Result = require('./classes/Result.js');
 
+var SESSION_COOKIE = '';
 const TEMPLATES_PATH = getTemplatesPath();
 const HEADERS = {
   'Accept': '*/*',
@@ -12,8 +13,19 @@ const HEADERS = {
   'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
   'Sec-Fetch-Mode': 'cors',
   'Content-Type': 'application/json',
-  'Cookie': 'cc_session_0=.eJwlzj1uQzEMA-C7eM5gWT-U3mUCW7aRri_NVPTuNdCFALnw-ynPfa_3q1zf92c9yvNrlqvsqJPQzcNOrGqpVURrAwa3PTiUwLqN0_gUIFo657DZtVN46BAf7t6DRGaHuKlmE1VMpLKk-5g1R2XkCnUyQwTN5URSHuXzXvc_poXDLmU1AVdUqDif2wNC20ZnATcckLBWiBBPnuX3DyLMN-8.EPV-eg.6SZrW0JtwSloXm-S0GOhFKVKytQPHdg3KZeaTK8XOis'
+  'Cookie': SESSION_COOKIE
 };
+
+router.get('/login-internal', (request, response) => {
+  _request({
+    url: 'https://api.confidentcannabis.com/login',
+    method: 'POST',
+    headers: HEADERS,
+    body: `{email: "jeff.campecino@confidentcannabis.com", password: "8JF2DfZHVppja6b"}`
+  }, (error, res, body) => {
+    SESSION_COOKIE = res.headers['set-cookie'][0].split(';')[0]
+  });  
+})
 
 // GET LAB CONFIG
 router.get('/get-lab-config', (request, response) => {
@@ -24,7 +36,6 @@ router.get('/get-lab-config', (request, response) => {
     if (!lab) {
       throw 'Lab not provided!';
     }
-    console.log("Hello World!")
     
     // check if PATH is valid/exists
     if (fs.existsSync(PATH)) {
@@ -75,6 +86,20 @@ router.get('/get-lab-internal-config', (request, response) => {
     response.json(new Result({ message: error, status: -1 }));
   }
 });
+
+function parseCookies (request) {
+  var list = {},
+      rc = request.headers.cookie;
+
+  rc && rc.split(';').forEach(function( cookie ) {
+      var parts = cookie.split('=');
+      list[parts.shift().trim()] = decodeURI(parts.join('='));
+  });
+
+  return list;
+}
+
+
 
 module.exports = router;
 
