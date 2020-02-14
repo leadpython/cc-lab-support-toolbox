@@ -24,3 +24,7 @@
   width: calc(100% - 84px);
   background: rgba(0,0,0,0.05);
 }
+
+.package-pages:hover {
+  background: rgba(0,0,0,0.05);
+}

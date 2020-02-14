@@ -876,6 +876,28 @@ export default class JaxxConfigUpdater extends Component<{}, State> {
       diff: {}
     }
   }
+  makePackagesComply() {
+    const self = this;
+    let config = deepClone(self.state.updatedConfig);
+    
+    for (let packageID in config.packages) {
+      let tps: any = config.packages[packageID];
+      if (!tps.compliance) {
+        for (let i = 0; i < tps.pages; i++) {
+          let page = tps.pages[i];
+          if (typeof page === 'string') {
+            config.packages[packageID].pages[i] = {
+              page,
+              regulatory_type: 'non-regulatory'
+            }
+          } else {
+            config.packages[packageID].pages[i].regulatory_type = 'non-regulatory';
+          }
+        }
+      }
+    }
+    this.setState({ updatedConfig: config });
+  }
   handleLabInputChange(e: any) {
     this.setState({lab: e.target.value})
   }
@@ -887,6 +909,7 @@ export default class JaxxConfigUpdater extends Component<{}, State> {
   }
   handleGetConfig() {
     const self = this;
+    console.log(self.state.lab)
     if (self.state.lab.length > 0) {
       axios.get(`/api/get-lab-internal-config?lab=${self.state.lab}`).then((response) => {
         console.log(response)
@@ -992,13 +1015,13 @@ export default class JaxxConfigUpdater extends Component<{}, State> {
     const style: any = {
       display: 'block',
       width: '100%',
-      padding: '5px',
-      background: 'rgba(0,0,0,0.05)',
-      marginBottom: '2px'
+      padding: '4px',
+      marginBottom: '4px',
+      marginLeft: '15px'
     };
     if (typeof pages === 'string') {
       return (
-        <div style={style}>
+        <div style={style} className="package-pages">
           <Typography className="easy-font" style={{ fontFamily: 'Open Sans', fontSize: '12px' }}>
             EMPTY
           </Typography>
@@ -1013,7 +1036,7 @@ export default class JaxxConfigUpdater extends Component<{}, State> {
         pageName = page.page;
       }
       return (
-        <div style={style} key={index}>
+        <div style={style} key={index}  className="package-pages">
           <Typography className="easy-font" style={{ fontFamily: 'Open Sans', fontSize: '12px' }}>
             {pageName}
           </Typography>
@@ -1028,12 +1051,12 @@ export default class JaxxConfigUpdater extends Component<{}, State> {
       packages.push(
         <Grid item xs={12} key={id}>
           <Paper elevation={1} square={true} style={{ background: 'white', position: 'relative', margin: '10px', padding: '6px' }}>
-            <Typography  className="easy-font" style={{ fontFamily: 'Open Sans', fontSize: '12px', padding: '2px 5px' }}>
+            <Typography  className="easy-font" style={{ fontWeight: 'bold', fontFamily: 'Open Sans', fontSize: '16px', padding: '2px 5px' }}>
               {id} | {this.state.updatedConfig.packages[id].name}
             </Typography>
             <Grid container style={{ padding: '10px 0px' }}>
               {this.renderPackagePages(this.state.updatedConfig.packages[id].pages)}
-              <Button variant="outlined" style={{ fontSize: '10px', width: '100%', borderRadius: '0px', fontWeight: 300 }}>Add Page</Button>
+              {/* <Button variant="outlined" style={{ fontSize: '10px', width: '100%', borderRadius: '0px', fontWeight: 300 }}>Add Page</Button> */}
             </Grid>
             <Grid container>
               {this.renderTestTypes(this.state.diff[id].tests)}
@@ -1066,7 +1089,6 @@ export default class JaxxConfigUpdater extends Component<{}, State> {
     return testStatuses;
   }
   copyToClipboard() {
-    // this.refs.updatedConfig.select();
     this.updatedConfigRef.current.select();
     copyToClipboard();
   }
@@ -1159,6 +1181,11 @@ export default class JaxxConfigUpdater extends Component<{}, State> {
                     Test Package Editor
                   </Typography>
                   <Divider></Divider>
+                  <Button variant="outlined" style={{ position: 'absolute', top: '10px', right: '10px' }} onClick={() => this.makePackagesComply()}>
+                    <Typography className="easy-font" style={{ fontFamily: 'Open Sans', fontSize: '12px' }}>
+                      MAKE PACKAGES COMPLY
+                    </Typography>
+                  </Button>
                 </Grid>
                 <Grid item xs={12} className="simple-scrollbar" style={{ minHeight: '0px', maxHeight: '50vh', background: 'white', overflowY: 'auto' }}>
                   {this.renderPackages()}

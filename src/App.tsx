@@ -11,6 +11,9 @@ import ListItemText from "@material-ui/core/ListItemText";
 import MenuIcon from "@material-ui/icons/Menu";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
+import Button from '@material-ui/core/Button';
+import axios from 'axios';
+
 import {
   makeStyles,
   useTheme,
@@ -83,6 +86,12 @@ const App: React.FC = (props: any, state: any) => {
     setMobileOpen(!mobileOpen);
   };
 
+  const loginInternal = () => {
+    axios.post(`/api/login-internal`, {email: "jeff.campecino@confidentcannabis.com", password: "8JF2DfZHVppja6b"}).then((response) => {
+      console.log(response)
+    });
+  }
+
   const drawer = (
     <div>
       <div className={classes.toolbar} />
@@ -145,6 +154,11 @@ const App: React.FC = (props: any, state: any) => {
             <Typography className={classes.typography} noWrap>
               CC Lab Support Toolbox
             </Typography>
+            <Button variant="outlined" style={{ position: 'absolute', right: '15px' }} onClick={() => loginInternal() }>
+                <Typography className="easy-font" style={{ fontFamily: 'Open Sans', fontSize: '12px' }}>
+                  LOGIN TO INTERNAL
+                </Typography>
+              </Button>
           </Toolbar>
         </AppBar>
         <nav className={classes.drawer} aria-label="mailbox folders">

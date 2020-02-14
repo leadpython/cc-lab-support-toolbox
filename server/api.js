@@ -16,14 +16,16 @@ const HEADERS = {
   'Cookie': SESSION_COOKIE
 };
 
-router.get('/login-internal', (request, response) => {
+router.post('/login-internal', (request, response) => {
+  console.log(request.body)
   _request({
     url: 'https://api.confidentcannabis.com/login',
     method: 'POST',
     headers: HEADERS,
-    body: `{email: "jeff.campecino@confidentcannabis.com", password: "8JF2DfZHVppja6b"}`
+    body: JSON.stringify(request.body)
   }, (error, res, body) => {
     SESSION_COOKIE = res.headers['set-cookie'][0].split(';')[0]
+    response.json(SESSION_COOKIE)
   });  
 })
 
