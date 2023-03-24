@@ -1,0 +1,2359 @@
+{
+  "2rl": {
+    "2rl/coa/templates/ca-cover-can": [],
+    "default/coa/templates/ca-cover-can-ter": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-mic-myc": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-hvy": [],
+    "default/coa/templates/ca-ter": [],
+    "default/coa/templates/ca-vitamin-e-acetate": []
+  },
+  "aa": {
+    "aa/coa/templates/cover": [],
+    "aa/coa/templates/combo-1": [],
+    "aa/coa/templates/terpenes": [],
+    "aa/coa/templates/metal-pesticides": [],
+    "aa/coa/templates/solvents": []
+  },
+  "aal": {
+    "aal/coa/templates/ca-cover-can": [],
+    "aal/coa/templates/cct-cover-can": [],
+    "aal/coa/templates/cct-ter": [],
+    "aal/coa/templates/cct-pes": [],
+    "aal/coa/templates/cct-mic-myc-hvy": [],
+    "aal/coa/templates/cct-sol": []
+  },
+  "abko": {
+    "abko/coa/templates/cover-can": [],
+    "abko/coa/templates/combo-1": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/sol": [],
+    "abko/coa/templates/dna": []
+  },
+  "abs": {
+    "default/coa/templates/can-4-stat": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/ter": []
+  },
+  "acc": {
+    "default/coa/templates/can-4-stat": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/ter": []
+  },
+  "ace": {
+    "ace/coa/templates/can-saf-ter": [],
+    "ace/coa/templates/can-saf-ter-edible": [],
+    "ace/coa/templates/pes-mic-sol-hvy-myc": [],
+    "default/coa/templates/vitamin-e-acetate": []
+  },
+  "acl": {
+    "default/coa/templates/can-5-stat": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/ter": []
+  },
+  "acs": {
+    "acs/coa/templates/cover-can": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/pes": [],
+    "acs/coa/templates/hvy-sol": [],
+    "acs/coa/templates/mic-myc-wa-h20": []
+  },
+  "act": {
+    "act/coa/templates/cover-page": [],
+    "act/coa/templates/concentrate-combo": [],
+    "act/coa/templates/flower-combo": [],
+    "act/coa/templates/full-combo": [],
+    "act/coa/templates/can": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/fm-basic": []
+  },
+  "actca": {
+    "actca/coa/templates/ca-cover-can": [],
+    "default/coa/templates/ca-ter": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-mic-myc-hvy": [],
+    "default/coa/templates/ca-mic-myc": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-hvy": []
+  },
+  "acth": {
+    "acth/coa/templates/can-ter-mic": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/water-activity": []
+  },
+  "actil": {
+    "actil/coa/templates/concentrate-combo": [],
+    "actil/coa/templates/edible-combo": [],
+    "actil/coa/templates/flower-combo": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/pes": []
+  },
+  "actmi": {
+    "actmi/coa/templates/can-ter-combo": [],
+    "default/coa/templates/ter": [],
+    "actmi/coa/templates/mic-sol-hvy": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/vitamin-e-acetate": [],
+    "actmi/coa/templates/ph": [],
+    "actmi/coa/templates/vitamin-e-acetate": []
+  },
+  "actny": {
+    "actny/coa/templates/cover-page": [],
+    "actny/coa/templates/can-3-stat": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/moisture": []
+  },
+  "actoh": {
+    "actoh/coa/templates/can-ter-combo": [],
+    "actoh/coa/templates/pes-mic-sol-hvy-myc": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/vitamin-e-acetate": []
+  },
+  "actpa": {
+    "actpa/coa/templates/flower-combo": [],
+    "actpa/coa/templates/concentrate-combo": [],
+    "actpa/coa/templates/edible-combo": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/vitamin-e-acetate": []
+  },
+  "adv": {
+    "adv/coa/templates/can-saf-ter": [],
+    "adv/coa/templates/pes-mic-sol-hvy-myc": []
+  },
+  "agr": {
+    "agr/coa/templates/can": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/ter": []
+  },
+  "ait": {
+    "ait/coa/templates/cover-can": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/water-activity": []
+  },
+  "all": {
+    "default/coa/templates/ca-cover-can-hemp": []
+  },
+  "ans": {
+    "default/coa/templates/ca-cover-can": [],
+    "default/coa/templates/ca-ter": [],
+    "ans/coa/templates/ca-pes-mic-myc-hvy-sol-fmi": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-mic-myc-hvy": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-nutrients": [],
+    "ans/coa/templates/definitions": []
+  },
+  "ant": {
+    "ant/coa/templates/concentrate-combo": [],
+    "ant/coa/templates/flower-combo": [],
+    "ant/coa/templates/ingestible-combo": [],
+    "ant/coa/templates/non-bho-concentrate-combo": [],
+    "default/coa/templates/can-3-stat": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/moisture": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/water-activity": [],
+    "default/coa/templates/myc": []
+  },
+  "apo": {
+    "apo/coa/templates/az-cover-can": [],
+    "default/coa/templates/az-pes-herb": [],
+    "apo/coa/templates/az-mic-myc-hvy": [],
+    "default/coa/templates/az-sol": [],
+    "default/coa/templates/az-ter": []
+  },
+  "aprc": {
+    "default/coa/templates/can-5-stat": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/ter": []
+  },
+  "ara": {
+    "ara/coa/templates/can-saf-ter": [],
+    "default/coa/templates/can-2-stat": [],
+    "ara/coa/templates/mic-hvy": [],
+    "ara/coa/templates/pes-myc": [],
+    "ara/coa/templates/mic": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/water-activity": [],
+    "default/coa/templates/moisture": [],
+    "ara/coa/templates/fmi": []
+  },
+  "arg": {
+    "arg/coa/templates/cover": [],
+    "arg/coa/templates/terpenes": [],
+    "arg/coa/templates/microbials-fmi": [],
+    "arg/coa/templates/mycotoxins": [],
+    "arg/coa/templates/metals": [],
+    "arg/coa/templates/solvents": [],
+    "arg/coa/templates/pesticides": [],
+    "arg/coa/templates/fmi-wa-h2o": []
+  },
+  "atl": {
+    "atl/coa/templates/cover-can": [],
+    "default/coa/templates/ter": [],
+    "atl/coa/templates/sol-mic-myc-hvy": [],
+    "default/coa/templates/pes": []
+  },
+  "atls": {
+    "atls/coa/templates/cover-can": [],
+    "atls/coa/templates/mic-myc": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/ter": []
+  },
+  "au": {
+    "au/coa/templates/cover-page": [],
+    "au/coa/templates/can-mic-ingestible": [],
+    "au/coa/templates/can-mic-res": [],
+    "au/coa/templates/hemp": [],
+    "au/coa/templates/ter": [],
+    "au/coa/templates/pes": [],
+    "au/coa/templates/mic": [],
+    "au/coa/templates/sol": [],
+    "au/coa/templates/hvy": [],
+    "au/coa/templates/myc": []
+  },
+  "ba": {
+    "default/coa/templates/can-5-stat": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/ter": []
+  },
+  "bal": {
+    "bal/coa/templates/can-saf-ter": [],
+    "bal/coa/templates/sol-mic-hvy-wa-h20-fmi": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/myc": []
+  },
+  "bcl": {
+    "bcl/coa/templates/ca-cover-can": [],
+    "default/coa/templates/ca-ter": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-mic-myc-hvy": [],
+    "default/coa/templates/ca-mic-myc": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-hvy": []
+  },
+  "bfl": {
+    "bfl/coa/templates/can": [],
+    "bfl/coa/templates/can-mic": [],
+    "bfl/coa/templates/can-sol-extract": [],
+    "bfl/coa/templates/pes-sol-safety": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/moisture-water-activity": [],
+    "default/coa/templates/fm-basic": []
+  },
+  "blp": {
+    "default/coa/templates/can-2-stat": []
+  },
+  "bsd": {
+    "bsd/coa/templates/cover-can-ter": [],
+    "bsd/coa/templates/ca-cover-can": [],
+    "default/coa/templates/ca-cover-can-hemp": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-mic-myc": [],
+    "default/coa/templates/ca-mic-myc-hvy": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-hvy": [],
+    "default/coa/templates/ca-ter": [],
+    "default/coa/templates/ca-vitamin-e-acetate": []
+  },
+  "bsl": {
+    "bsl/coa/templates/can-saf-ter": [],
+    "bsl/coa/templates/pes-mic-sol-hvy-myc": []
+  },
+  "bts": {
+    "default/coa/templates/can-saf-ter": [],
+    "default/coa/templates/pes-mic-sol-hvy-myc": []
+  },
+  "bud": {
+    "bud/coa/templates/can-saf-ter-flower": [],
+    "default/coa/templates/pes-mic-sol-hvy-myc": []
+  },
+  "buf": {
+    "buf/coa/templates/can-ter": [],
+    "buf/coa/templates/can-5-stat": [],
+    "buf/coa/templates/ter-pie": [],
+    "buf/coa/templates/pes-mic-sol-myc": [],
+    "buf/coa/templates/pes-mic-myc": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/mic-myc": []
+  },
+  "bva": {
+    "default/coa/templates/ca-cover-can": [],
+    "default/coa/templates/ca-ter": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "default/coa/templates/ca-hvy": [],
+    "default/coa/templates/ca-sol": []
+  },
+  "c4l": {
+    "c4l/coa/templates/cover": [],
+    "c4l/coa/templates/can-mic-sol-fm-ter": [],
+    "c4l/coa/templates/can": [],
+    "c4l/coa/templates/ter": [],
+    "c4l/coa/templates/sol-fm": [],
+    "c4l/coa/templates/mic-qpcr-plate": [],
+    "c4l/coa/templates/pes-herb": [],
+    "c4l/coa/templates/fm": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/vitamin-e-acetate": []
+  },
+  "cag": {
+    "cag/coa/templates/can-saf-ter": [],
+    "cag/coa/templates/can-saf-ter-ingestible": [],
+    "cag/coa/templates/pes-mic-hvy-myc": [],
+    "default/coa/templates/gender": [],
+    "default/coa/templates/vitamin-e-acetate": []
+  },
+  "cal": {
+    "default/coa/templates/can-3-stat": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/fm-basic": []
+  },
+  "canl": {
+    "default/coa/templates/can-5-stat": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/hvy": []
+  },
+  "canm": {
+    "default/coa/templates/ca-cover-can": [],
+    "default/coa/templates/ca-ter": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-mic-myc-hvy": [],
+    "default/coa/templates/ca-sol": []
+  },
+  "cbl": {
+    "cbl/coa/templates/ca-cover-can": [],
+    "default/coa/templates/ca-ter": [],
+    "default/coa/templates/ca-cover-can-hemp": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-mic-myc-hvy": [],
+    "default/coa/templates/ca-sol": [],
+    "cbl/coa/templates/moisture": [],
+    "cbl/coa/templates/water-activity": [],
+    "cbl/coa/templates/fm-basic": [],
+    "cbl/coa/templates/multi-package": []
+  },
+  "cc1": {
+    "default/coa/templates/ca-cover-can": [],
+    "default/coa/templates/ca-cover-can-hemp": [],
+    "default/coa/templates/ca-ter": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-mic-myc-hvy": [],
+    "default/coa/templates/ca-sol": [],
+    "cc1/coa/templates/cannabinoids-wa-pes": [],
+    "cc1/coa/templates/cannabinoids": [],
+    "cc1/coa/templates/can-saf-ter": [],
+    "cc1/coa/templates/can-5-stat": [],
+    "cc1/coa/templates/mic": [],
+    "cc1/coa/templates/myc": [],
+    "cc1/coa/templates/hvy": [],
+    "cc1/coa/templates/sol": [],
+    "cc1/coa/templates/pes": [],
+    "cc1/coa/templates/pes-herb": [],
+    "cc1/coa/templates/ter": [],
+    "cc1/coa/templates/ca-fmi-wa-h2o": []
+  },
+  "ccl": {
+    "ccl/coa/templates/can-saf": [],
+    "ccl/coa/templates/can-saf-plants": [],
+    "ccl/coa/templates/can-saf-rnd": [],
+    "default/coa/templates/can-2-stat": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/pes": [],
+    "ccl/coa/templates/sol": [],
+    "default/coa/templates/ter": [],
+    "ccl/coa/templates/fmi": []
+  },
+  "cct": {
+    "default/coa/templates/ca-cover-can": [],
+    "default/coa/templates/ca-cover-can-hemp": [],
+    "cct/coa/templates/ca-can-3-stat-distillate": [],
+    "default/coa/templates/ca-cover-can-ter": [],
+    "default/coa/templates/ca-ter": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-mic-myc-hvy": [],
+    "default/coa/templates/ca-mic-myc": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "default/coa/templates/ca-sol": [],
+    "cct/coa/templates/ca-hvy": []
+  },
+  "cdx": {
+    "cdx/coa/templates/summary": [],
+    "cdx/coa/templates/sample-info": [],
+    "cdx/coa/templates/combo-1": [],
+    "cdx/coa/templates/combo-2": [],
+    "cdx/coa/templates/sample-info-rd": [],
+    "cdx/coa/templates/combo-1-rd": [],
+    "cdx/coa/templates/combo-2-rd": []
+  },
+  "cer": {
+    "default/coa/templates/ca-cover-can": [],
+    "cer/coa/templates/can-cbd-only": [],
+    "cer/coa/templates/can-cbd-only-decarb": [],
+    "default/coa/templates/ca-ter": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "default/coa/templates/ca-mic-myc-hvy": [],
+    "cer/coa/templates/mic-myc-sol": []
+  },
+  "cgl": {
+    "default/coa/templates/ca-cover-can": [],
+    "cgl/coa/templates/cover-can-ter": [],
+    "cgl/coa/templates/cover-can": [],
+    "default/coa/templates/ca-ter": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-mic-myc-hvy": [],
+    "default/coa/templates/ca-mic-myc": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-hvy": []
+  },
+  "cgm": {
+    "cgm/coa/templates/cover-can-stat": [],
+    "default/coa/templates/ca-cover-can-hemp": [],
+    "default/coa/templates/ca-ter": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-mic-myc-hvy": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "default/coa/templates/ca-hvy": [],
+    "cgm/coa/templates/cannabinoids-ratio": []
+  },
+  "ch": {
+    "ch/coa/templates/cannabinoids": [],
+    "ch/coa/templates/cannabinoids-edible": [],
+    "ch/coa/templates/cannabinoids-h2o": [],
+    "ch/coa/templates/cannabinoids-wa-pes": [],
+    "ch/coa/templates/cannabinoids-sol-pes": [],
+    "ch/coa/templates/cannabinoids-hemp": [],
+    "ch/coa/templates/cannabinoids-ratio": [],
+    "ch/coa/templates/hemp-compliance-can-wa-pes": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/hvy": [],
+    "ch/coa/templates/ter": [],
+    "default/coa/templates/moisture": [],
+    "default/coa/templates/water-activity": [],
+    "ch/coa/templates/mic": [],
+    "default/coa/templates/myc": [],
+    "ch/coa/templates/density-advisory": []
+  },
+  "clip": {
+    "clip/coa/templates/ca-cover-can": [],
+    "clip/coa/templates/ca-cover-d9": [],
+    "clip/coa/templates/ca-cover-can-hemp": [],
+    "default/coa/templates/ca-ter": [],
+    "clip/coa/templates/mic-wa-fmi": [],
+    "clip/coa/templates/ca-hvy-myc": [],
+    "clip/coa/templates/ca-pes": [],
+    "clip/coa/templates/ca-sol": []
+  },
+  "cml": {
+    "default/coa/templates/ca-cover-can": [],
+    "default/coa/templates/ca-cover-can-ter": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-mic-myc-hvy": [],
+    "default/coa/templates/ca-mic-myc": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "default/coa/templates/ca-hvy": [],
+    "default/coa/templates/ca-ter": [],
+    "cml/coa/templates/cover": []
+  },
+  "cmls": {
+    "default/coa/templates/ca-cover-can": [],
+    "default/coa/templates/ca-cover-can-ter": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-mic-myc-hvy": [],
+    "default/coa/templates/ca-mic-myc": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "default/coa/templates/ca-hvy": [],
+    "default/coa/templates/ca-ter": []
+  },
+  "cnb": {
+    "default/coa/templates/ca-cover-can-ter": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-mic-myc": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-hvy": [],
+    "default/coa/templates/can-saf-ter": [],
+    "default/coa/templates/pes-mic-sol-hvy-myc": []
+  },
+  "cnl": {
+    "default/coa/templates/can-4-stat": ["can"],
+    "default/coa/templates/ter": ["ter"],
+    "default/coa/templates/mic-myc": ["mic", "myc"],
+    "default/coa/templates/pes": ["pes"],
+    "default/coa/templates/sol": ["sol"],
+    "default/coa/templates/hvy": ["hvy"],
+    "default/coa/templates/water-activity": ["wa"],
+    "default/coa/templates/vitamin-e-acetate": ["can"]
+  },
+  "cnr": {
+    "default/coa/templates/ca-cover-can": [],
+    "default/coa/templates/ca-ter": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-mic-myc": [],
+    "default/coa/templates/ca-mic-myc-hvy": [],
+    "default/coa/templates/ca-sol": []
+  },
+  "cns": {
+    "cns/coa/templates/can-saf-ter": [],
+    "cns/coa/templates/can-saf-ter-edibles": [],
+    "cns/coa/templates/hemp": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/pes-mic-sol-hvy-myc": [],
+    "cns/coa/templates/sol": [],
+    "default/coa/templates/moisture": [],
+    "cns/coa/templates/amended-notes": []
+  },
+  "cog": {
+    "default/coa/templates/ca-cover-can": [],
+    "default/coa/templates/ca-cover-can-hemp": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-mic-myc": [],
+    "default/coa/templates/ca-mic-myc-hvy": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-hvy": [],
+    "default/coa/templates/ca-ter": [],
+    "default/coa/templates/ca-vitamin-e-acetate": []
+  },
+  "cpl": {
+    "cpl/coa/templates/can-fm-h2o-wa": [],
+    "default/coa/templates/can-3-stat-sol": [],
+    "default/coa/templates/can-3-stat-ter": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/ter": []
+  },
+  "cpt": {
+    "cpt/coa/templates/cover-can": [],
+    "default/coa/templates/can-3-stat": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/mic-myc": [],
+    "cpt/coa/templates/mic-rapid-screening": []
+  },
+  "crg": {
+    "crg/coa/templates/ca-cover-can": [],
+    "default/coa/templates/ca-ter": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-mic-myc-hvy": [],
+    "default/coa/templates/ca-mic-myc": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-hvy": []
+  },
+  "cri": {
+    "cri/coa/templates/cover": []
+  },
+  "crs": {
+    "crs/coa/templates/ca-cover-can": [],
+    "default/coa/templates/ca-cover-can-hemp": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "default/coa/templates/ca-hvy": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-ter": []
+  },
+  "csa": {
+    "csa/coa/templates/can-ter-saf-h2o-wa": [],
+    "default/coa/templates/can-5-stat": [],
+    "default/coa/templates/can-4-stat": [],
+    "default/coa/templates/can-3-stat": [],
+    "default/coa/templates/can-2-stat": [],
+    "csa/coa/templates/ter": [],
+    "csa/coa/templates/mic": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/pes": [],
+    "csa/coa/templates/mic-hvy-myc": []
+  },
+  "csala": {
+    "csala/coa/templates/can-ter-saf-h2o-wa": [],
+    "default/coa/templates/ca-can-5-stat": [],
+    "default/coa/templates/ca-can-3-stat": [],
+    "csala/coa/templates/ter": [],
+    "default/coa/templates/ca-pes": [],
+    "csala/coa/templates/mic-sol": [],
+    "default/coa/templates/ca-hvy": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-myc": [],
+    "csala/coa/templates/plant-tissue-hvy": [],
+    "default/coa/templates/ca-mic-myc-hvy": []
+  },
+  "cta": {
+    "default/coa/templates/can-quad": [],
+    "cta/coa/templates/mic": []
+  },
+  "cvd": {
+    "cvd/coa/templates/can": []
+  },
+  "cvs": {
+    "cvs/coa/templates/can-saf-ter": [],
+    "cvs/coa/templates/mic-sol-hvy-myc": [],
+    "default/coa/templates/pes": [],
+    "cvs/coa/templates/can-3-stat": []
+  },
+  "cwa": {
+    "cwa/coa/templates/cover-can-ter": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-mic-myc": [],
+    "default/coa/templates/ca-hvy": []
+  },
+  "cwb": {
+    "cwb/coa/templates/d8_thc": [],
+    "default/coa/templates/can-5-stat": [],
+    "cwb/coa/templates/cbd": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/ter": [],
+    "cwb/coa/templates/dna": [],
+    "cwb/coa/templates/sc_led_1": [],
+    "cwb/coa/templates/sc_led_2": []
+  },
+  "cws": {
+    "default/coa/templates/can-saf-ter": [],
+    "cws/coa/templates/mic-sol-hvy-myc": [],
+    "default/coa/templates/pes": []
+  },
+  "d9l": {
+    "d9l/coa/templates/cannabinoids": [],
+    "d9l/coa/templates/terpenes": [],
+    "d9l/coa/templates/pesticides": [],
+    "d9l/coa/templates/solvents": [],
+    "d9l/coa/templates/mic-myc-hvy": []
+  },
+  "dbl": {
+    "dbl/coa/templates/combo-1": [],
+    "dbl/coa/templates/combo-2": [],
+    "dbl/coa/templates/can": [],
+    "dbl/coa/templates/ter": [],
+    "dbl/coa/templates/mic": [],
+    "dbl/coa/templates/pes": [],
+    "dbl/coa/templates/sol": [],
+    "dbl/coa/templates/myc": [],
+    "dbl/coa/templates/hvy": [],
+    "dbl/coa/templates/d9-thc": [],
+    "dbl/coa/templates/wa-ph": []
+  },
+  "dcl": {
+    "dcl/coa/templates/can-saf-ter": [],
+    "dcl/coa/templates/hemp": [],
+    "dcl/coa/templates/pes-mic-sol-hvy-myc": []
+  },
+  "dclca": {
+    "dclca/coa/templates/ca-cover-can": ["can"],
+    "default/coa/templates/ca-cover-can-hemp": ["can"],
+    "dclca/coa/templates/ca-pes-mic-myc-hvy-fmi": ["pes","mic","myc","hvy","fmi"],
+    "default/coa/templates/ca-sol": ["sol"],
+    "dclca/coa/templates/ca-fmi": ["fmi"],
+    "default/coa/templates/ca-ter": ["ter"],
+    "default/coa/templates/ca-vitamin-e-acetate": ["can"],
+    "default/coa/templates/ca-nutrients": ["nut"],
+    "default/coa/templates/ca-alkaloids": ["alk"],
+    "dclca/coa/templates/ca-misc": ["misc"]
+  },
+  "dec": {
+    "default/coa/templates/ca-cover-can": [],
+    "default/coa/templates/ca-ter": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-mic-myc-hvy": [],
+    "default/coa/templates/ca-sol": []
+  },
+  "del": {
+    "del/coa/templates/cover": [],
+    "del/coa/templates/canterp-combo": [],
+    "del/coa/templates/can": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/mic-with-image": [],
+    "del/coa/templates/pes-herb": [],
+    "default/coa/templates/sol": [],
+    "del/coa/templates/canres-combo": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/myc": []
+  },
+  "digp": {
+    "digp/coa/templates/can-ter-cover": [],
+    "digp/coa/templates/can-ter-ingestible-cover": [],
+    "digp/coa/templates/hvy-myc-sol-pes-mic": []
+  },
+  "dor": {
+    "dor/coa/templates/ca-cover-can": [],
+    "default/coa/templates/ca-ter": [],
+    "dor/coa/templates/ca-wa-h2o": [],
+    "default/coa/templates/ca-cover-can-hemp": [],
+    "dor/coa/templates/ca-pes": [],
+    "dor/coa/templates/ca-pes-mic-sol": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "dor/coa/templates/ca-fmi": [],
+    "dor/coa/templates/ca-wa": [],
+    "dor/coa/templates/ca-h2o": [],
+    "dor/coa/templates/ca-composite": []
+  },
+  "dst": {
+    "dst/coa/templates/cover": [],
+    "dst/coa/templates/combo-1": [],
+    "dst/coa/templates/ter": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/hvy": [],
+    "dst/coa/templates/pes": []
+  },
+  "dvt": {
+    "dvt/coa/templates/can-saf-ter": [],
+    "dvt/coa/templates/sol-mic-hvy": [],
+    "default/coa/templates/pes": []
+  },
+  "ea": {
+    "ea/coa/templates/can-saf-ter": [],
+    "ea/coa/templates/sol-mic-hvy-wa-h20-fmi": [],
+    "default/coa/templates/pes": []
+  },
+  "eal": {
+    "eal/coa/templates/cannabinoids": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/sol": []
+  },
+  "ecc": {
+    "ecc/coa/templates/can-4-stat": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": []
+  },
+  "ecl": {
+    "ecl/coa/templates/can": [],
+    "ecl/coa/templates/can-summary": [],
+    "ecl/coa/templates/can-saf-ter": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/sol": [],
+    "ecl/coa/templates/mic": [],
+    "default/coa/templates/myc": []
+  },
+  "eco": {
+    "default/coa/templates/can-2-stat": [],
+    "default/coa/templates/can-5-stat": [],
+    "default/coa/templates/can-3-stat-hemp": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/fm-basic": [],
+    "default/coa/templates/moisture-water-activity": [],
+    "default/coa/templates/water-activity": []
+  },
+  "egt": {
+    "egt/coa/templates/ca-cover-can": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-hvy": [],
+    "default/coa/templates/ca-pes": [],
+    "egt/coa/templates/ter": [],
+    "egt/coa/templates/nutrients": [],
+    "egt/coa/templates/dna": []
+  },
+  "el": {
+    "el/coa/templates/can-3-stat": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/moisture-water-activity": []
+  },
+  "ela": {
+    "ela/coa/templates/ca-cover-can": [],
+    "ela/coa/templates/ca-cover-can-cbg": [],
+    "default/coa/templates/ca-cover-can-hemp": [],
+    "default/coa/templates/ca-ter": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-mic-myc-hvy": [],
+    "default/coa/templates/ca-mic-myc": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "default/coa/templates/ca-hvy": [],
+    "default/coa/templates/ca-vitamin-e-acetate": [],
+    "ela/coa/templates/sample-images": []
+  },
+  "elb": {
+    "elb/coa/templates/cover-can-stat": [],
+    "default/coa/templates/ca-ter": [],
+    "elb/coa/templates/cannabinoids-ratio": []
+  },
+  "elh": {
+    "elh/coa/templates/can-saf-ter": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "default/coa/templates/ca-hvy": []
+  },
+  "emc": {
+    "default/coa/templates/ca-cover-can": [],
+    "default/coa/templates/ca-cover-can-hemp": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "default/coa/templates/ca-hvy": [],
+    "default/coa/templates/ca-mic-myc-hvy": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-ter": [],
+    "default/coa/templates/ca-sol": []
+  },
+  "enc": {
+    "enc/coa/templates/cover-can-ter": [],
+    "enc/coa/templates/ca-cover-can": [],
+    "default/coa/templates/ca-cover-can-hemp": [],
+    "default/coa/templates/ca-ter": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "default/coa/templates/ca-mic-myc": [],
+    "enc/coa/templates/mic-hvy": []
+  },
+  "es": {
+    "es/coa/templates/cover-can": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/pes": [],
+    "es/coa/templates/mic-sol-hvy-myc": []
+  },
+  "est": {
+    "est/coa/templates/can-safety": [],
+    "default/coa/templates/ter": [],
+    "est/coa/templates/pes-mic-sol-hvy-myc": []
+  },
+  "ets": {
+    "ets/coa/templates/can-saf-ter": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/hvy": []
+  },
+  "evf": {
+    "evf/coa/templates/cover": [],
+    "default/coa/templates/can-3-stat-ter": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/mic-myc": [],
+    "default/coa/templates/hvy": []
+  },
+  "evm": {
+    "evm/coa/templates/cover": [],
+    "evm/coa/templates/combo-1": [],
+    "evm/coa/templates/combo-2": [],
+    "evm/coa/templates/combo-3": [],
+    "evm/coa/templates/combo-4": [],
+    "default/coa/templates/can-3-stat-ter": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/myc": [],
+    "evm/coa/templates/mic": [],
+    "default/coa/templates/hvy": []
+  },
+  "evs": {
+    "default/coa/templates/ter": []
+  },
+  "exl": {
+    "default/coa/templates/ca-cover-can": [],
+    "exl/coa/templates/ca-gc-pes-myc-hvy-mic": [],
+    "exl/coa/templates/ca-gc-pes-myc": [],
+    "exl/coa/templates/ca-hvy-mic": [],
+    "exl/coa/templates/ca-lc-pes": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-ter": []
+  },
+  "fba": {
+    "default/coa/templates/can-5-stat": [],
+    "default/coa/templates/ter": [],
+    "fba/coa/templates/mic": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/hvy": []
+  },
+  "fes": {
+    "default/coa/templates/ca-cover-can-ter": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-mic-myc": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-hvy": [],
+    "fes/coa/templates/ca-ph": []
+  },
+  "fid": {
+    "fid/coa/templates/can-fm-moisture": [],
+    "default/coa/templates/ter-pie-aroma": [],
+    "fid/coa/templates/myc-mic-sol": [],
+    "default/coa/templates/pes": [],
+    "fid/coa/templates/amendednotes": []
+  },
+  "flc": {
+    "flc/coa/templates/cover-can": [],
+    "default/coa/templates/ca-ter": [],
+    "default/coa/templates/ca-mic-myc-hvy": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-nutrients": [],
+    "flc/coa/templates/ca-hom": []
+  },
+  "fml": {
+    "fml/coa/templates/can-saf-ter": [],
+    "fml/coa/templates/mic-myc": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": []
+  },
+  "fpt": {
+    "fpt/coa/templates/can": [],
+    "fpt/coa/templates/ter": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/fm-basic": []
+  },
+  "g2a": {
+    "g2a/coa/templates/can-4-stat": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/ter": []
+  },
+  "g3l": {
+    "g3l/coa/templates/can-ter-saf-combo": [],
+    "g3l/coa/templates/can-ter-saf-combo-ingestible": [],
+    "g3l/coa/templates/cbd-hemp": [],
+    "g3l/coa/templates/pes-mic-myc-hvy": [],
+    "g3l/coa/templates/can": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/water-activity": [],
+    "default/coa/templates/fm-basic": [],
+    "default/coa/templates/moisture-basic": []
+  },
+  "gba": {
+    "gba/coa/templates/can": []
+  },
+  "gca": {
+    "gca/coa/templates/can-saf-ter": [],
+    "gca/coa/templates/mic-sol-hvy-myc": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/sol": [],
+    "gca/coa/templates/photo": []
+  },
+  "gcs": {
+    "default/coa/templates/can-5-stat": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/ter": []
+  },
+  "ghl": {
+    "default/coa/templates/can-saf-ter": [],
+    "default/coa/templates/pes": [],
+    "ghl/coa/templates/mic-sol-hvy-myc": []
+  },
+  "gl": {
+    "gl/coa/templates/can": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/ter": []
+  },
+  "glb": {
+    "default/coa/templates/can-5-stat": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/hvy": []
+  },
+  "gll": {
+    "default/coa/templates/can-5-stat": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/ter": []
+  },
+  "gnl": {
+    "default/coa/templates/can-saf-ter": [],
+    "default/coa/templates/pes-mic-sol-hvy-myc": [],
+    "default/coa/templates/water-activity": []
+  },
+  "got": {
+    "got/coa/templates/concentrate-combo": [],
+    "got/coa/templates/flower-combo": [],
+    "got/coa/templates/ingestible-combo": [],
+    "got/coa/templates/can": [],
+    "got/coa/templates/ter": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/moisture": [],
+    "default/coa/templates/moisture-water-activity": []
+  },
+  "gpa": {
+    "gpa/coa/templates/can-4-stat": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/water-activity": [],
+    "default/coa/templates/moisture": [],
+    "gpa/coa/templates/narrative": []
+  },
+  "grg": {
+    "grg/coa/templates/can-h2o-wa-fm-mic-myc": [],
+    "default/coa/templates/can-3-stat": [],
+    "grg/coa/templates/can-myc": [],
+    "grg/coa/templates/can-mic-myc": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/ter": []
+  },
+  "grh": {
+    "default/coa/templates/can-saf-ter": [],
+    "default/coa/templates/pes-mic-sol-hvy-myc": [],
+    "grh/coa/templates/dna": []
+  },
+  "gsa": {
+    "gsa/coa/templates/cannabinoids": [],
+    "gsa/coa/templates/fm": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/ter": []
+  },
+  "halo": {
+    "halo/coa/templates/can-3-stat": [],
+    "halo/coa/templates/can-saf-ter": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "halo/coa/templates/mic-myc-hvy": []
+  },
+  "har": {
+    "har/coa/templates/can": [],
+    "har/coa/templates/cover-can-ter": [],
+    "har/coa/templates/ca-cover-can": [],
+    "default/coa/templates/ca-cover-can-hemp": [],
+    "default/coa/templates/ca-ter": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-mic-myc-hvy": [],
+    "default/coa/templates/ca-hvy": [],
+    "default/coa/templates/ca-myc": [],
+    "default/coa/templates/ca-gender": [],
+    "default/coa/templates/ca-vitamin-e-acetate": []
+  },
+  "haz": {
+    "haz/coa/templates/cover-can": [],
+    "haz/coa/templates/cover-can-hom": [],
+    "haz/coa/templates/cover-can-hemp": [],
+    "haz/coa/templates/ter": [],
+    "haz/coa/templates/sol-mic-hvy-wa-h20-fmi": [],
+    "haz/coa/templates/pes": [],
+    "haz/coa/templates/myc": [],
+    "haz/coa/templates/herb-myc": [],
+    "default/coa/templates/moisture-water-activity": []
+  },
+  "hca": {
+    "hca/coa/templates/ca-cover-can": [],
+    "default/coa/templates/ca-cover-can-hemp": [],
+    "hca/coa/templates/ca-pes": [],
+    "hca/coa/templates/ca-mic": [],
+    "hca/coa/templates/ca-myc": [],
+    "hca/coa/templates/ca-sol": [],
+    "hca/coa/templates/ca-hvy": [],
+    "hca/coa/templates/ca-ter": [],
+    "default/coa/templates/ca-vitamin-e-acetate": []
+  },
+  "hdl": {
+    "default/coa/templates/can-2-stat": [],
+    "hdl/coa/templates/concentrate-combo": [],
+    "hdl/coa/templates/flower-combo": [],
+    "hdl/coa/templates/ingestible-combo": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/moisture-basic": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/fm-basic": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/moisture-water-activity": []
+  },
+  "hgl": {
+    "hgl/coa/templates/cover-can": [],
+    "hgl/coa/templates/cover-can-hemp": [],
+    "hgl/coa/templates/ter": [],
+    "hgl/coa/templates/mic-hvy-hom-fmi": [],
+    "hgl/coa/templates/mic-hvy-wa-h20-fmi": [],
+    "hgl/coa/templates/sol": [],
+    "hgl/coa/templates/pes-myc": [],
+    "default/coa/templates/mic": [],
+    "hgl/coa/templates/dna": []
+  },
+  "hkh": {
+    "hkh/coa/templates/ca-cover-can": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "default/coa/templates/ca-hvy": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-ter": []
+  },
+  "hlm": {
+    "hlm/coa/templates/concentrate-combo": [],
+    "hlm/coa/templates/flower-combo": [],
+    "hlm/coa/templates/full-combo": [],
+    "hlm/coa/templates/can": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/fm-basic": []
+  },
+  "hsa": {
+    "hsa/coa/templates/cover-can-ter": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-mic-myc": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-ter": [],
+    "default/coa/templates/ca-hvy": []
+  },
+  "htl": {
+    "htl/coa/templates/cover": [],
+    "htl/coa/templates/combo-1": [],
+    "default/coa/templates/can-2-stat": [],
+    "default/coa/templates/ter": [],
+    "htl/coa/templates/combo-2": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/vitamin-e-acetate": []
+  },
+  "ibl": {
+    "default/coa/templates/can-4-stat": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/dna": []
+  },
+  "ica": {
+    "ica/coa/templates/cover-page-hemp": [],
+    "ica/coa/templates/cover-can-hemp": [],
+    "ica/coa/templates/can-ter-combo": [],
+    "ica/coa/templates/can-only": [],
+    "ica/coa/templates/sol-hvy-mic-combo": [],
+    "ica/coa/templates/pes-combo": [],
+    "ica/coa/templates/pes-colorado": [],
+    "ica/coa/templates/multi-package": [],
+    "ica/coa/templates/cannabis-cup": [],
+    "ica/coa/templates/gender": [],
+    "ica/coa/templates/vitamin-e-acetate": []
+  },
+  "icm": {
+    "icm/coa/templates/can-ter-combo": [],
+    "icm/coa/templates/cover-can-hemp": [],
+    "icm/coa/templates/pes": [],
+    "icm/coa/templates/myc": [],
+    "icm/coa/templates/sol-hvy-mic-combo": [],
+    "icm/coa/templates/vitamin-e-acetate": []
+  },
+  "itl": {
+    "default/coa/templates/az-cover-can": [],
+    "default/coa/templates/az-ter": [],
+    "default/coa/templates/az-mic-myc-hvy": [],
+    "default/coa/templates/az-sol": [],
+    "default/coa/templates/az-pes-herb": []
+  },
+  "jun": {
+    "jun/coa/templates/can-composite-cover": [],
+    "jun/coa/templates/can-edible": [],
+    "jun/coa/templates/can-flower": [],
+    "jun/coa/templates/can": [],
+    "jun/coa/templates/ter": [],
+    "jun/coa/templates/pes": [],
+    "jun/coa/templates/sol": [],
+    "jun/coa/templates/sol-rpd": [],
+    "jun/coa/templates/mic": [],
+    "jun/coa/templates/h2o": [],
+    "jun/coa/templates/qc": [],
+    "jun/coa/templates/wa-only": []
+  },
+  "kas": {
+    "kas/coa/templates/can-5-stat": [],
+    "kas/coa/templates/can-5-stat-customer": [],
+    "kas/coa/templates/saf-mic-sol-hvy-myc": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/ter": []
+  },
+  "kbl": {
+    "kbl/coa/templates/cover-can": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/pes": [],
+    "kbl/coa/templates/mic": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/hvy": []
+  },
+  "kca": {
+    "kca/coa/templates/ca-cover-can": [],
+    "kca/coa/templates/ca-hvy": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-mic-myc": [],
+    "default/coa/templates/ca-mic-myc-hvy": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-hvy": [],
+    "default/coa/templates/ca-ter": [],
+    "default/coa/templates/ca-vitamin-e-acetate": []
+  },
+  "key": {
+    "key/coa/templates/cover-can-saf": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/pes": [],
+    "key/coa/templates/mic-hvy-myc": []
+  },
+  "ksl": {
+    "ksl/coa/templates/can": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/water-activity": []
+  },
+  "kst": {
+    "kst/coa/templates/cover": [],
+    "kst/coa/templates/combo-1": [],
+    "kst/coa/templates/ter": [],
+    "default/coa/templates/sol": [],
+    "kst/coa/templates/pes": []
+  },
+  "lfd": {
+    "lfd/coa/templates/can-ter-mic": [],
+    "lfd/coa/templates/can-ter-sol": [],
+    "lfd/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/fm-basic": []
+  },
+  "lkp": {
+    "lkp/coa/templates/cover-combo": [],
+    "lkp/coa/templates/pes-mic-hvy-myc": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/ter": []
+  },
+  "lli": {
+    "lli/coa/templates/ca-cover-can": [],
+    "default/coa/templates/ca-ter": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-mic-myc-hvy": [],
+    "default/coa/templates/ca-mic-myc": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "default/coa/templates/ca-hvy": [],
+    "lli/coa/templates/ca-other": []
+  },
+  "lpx": {
+    "lpx/coa/templates/ca-cover-can": [],
+    "lpx/coa/templates/ca-ter": [],
+    "lpx/coa/templates/ca-pes": [],
+    "lpx/coa/templates/ca-mic-myc": [],
+    "lpx/coa/templates/ca-mic": [],
+    "lpx/coa/templates/ca-myc": [],
+    "lpx/coa/templates/ca-sol": [],
+    "lpx/coa/templates/ca-hvy": [],
+    "lpx/coa/templates/ca-fmi-wa": [],
+    "lpx/coa/templates/ca-fmi": [],
+    "lpx/coa/templates/multi-package": []
+  },
+  "lsl": {
+    "lsl/coa/templates/placeholder": []
+  },
+  "lvl": {
+    "default/coa/templates/can-5-stat": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/sol": [],
+    "lvl/coa/templates/pes-herb": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/hvy": []
+  },
+  "lw": {
+    "lw/coa/templates/cover-can-stat": [],
+    "default/coa/templates/ca-cover-can-hemp": [],
+    "default/coa/templates/ca-ter": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-mic-myc-hvy": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "default/coa/templates/ca-hvy": [],
+    "lw/coa/templates/cannabinoids-ratio": []
+  },
+  "lwqa": {
+    "lwqa/coa/templates/cover-can-stat": [],
+    "default/coa/templates/ca-cover-can-hemp": [],
+    "default/coa/templates/ca-ter": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-mic-myc-hvy": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "default/coa/templates/ca-hvy": [],
+    "lwqa/coa/templates/cannabinoids-ratio": []
+  },
+  "lws": {
+    "lws/coa/templates/cover-can-stat": [],
+    "default/coa/templates/ca-cover-can-hemp": [],
+    "default/coa/templates/ca-ter": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-mic-myc-hvy": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "default/coa/templates/ca-hvy": [],
+    "lws/coa/templates/cannabinoids-ratio": []
+  },
+  "maa": {
+    "maa/coa/templates/can-saf-ter": [],
+    "maa/coa/templates/can-saf-ter-edible": [],
+    "default/coa/templates/pes-mic-sol-hvy-myc": []
+  },
+  "mgl": {
+    "default/coa/templates/can-3-stat": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/alkaloids": [],
+    "default/coa/templates/water-activity": [],
+    "default/coa/templates/moisture": []
+  },
+  "mis": {
+    "mis/coa/templates/cover-can": [],
+    "default/coa/templates/ca-ter": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-mic-myc-hvy": [],
+    "default/coa/templates/ca-mic-myc": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-hvy": []
+  },
+  "mml": {
+    "mml/coa/templates/can-saf-ter": [],
+    "mml/coa/templates/can-saf-ter-edible": [],
+    "mml/coa/templates/can-saf-ter-hemp": [],
+    "mml/coa/templates/can-saf-ter-edible-hemp": [],
+    "mml/coa/templates/pes-mic-hvy-myt": []
+  },
+  "mrx": {
+    "mrx/coa/templates/can": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/moisture": [],
+    "default/coa/templates/water-activity": [],
+    "default/coa/templates/mic": []
+  },
+  "mso": {
+    "mso/coa/templates/ca-cover-can": [],
+    "mso/coa/templates/ca-cover-can-hemp": [],
+    "mso/coa/templates/cover-page": [],
+    "default/coa/templates/ca-ter": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-mic-myc": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-hvy": [],
+    "mso/coa/templates/ca-dna": []
+  },
+  "mwl": {
+    "mwl/coa/templates/can": [],
+    "default/coa/templates/ter-pie": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": []
+  },
+  "nas": {
+    "nas/coa/templates/cover-can-ter": [],
+    "nas/coa/templates/cover-can": [],
+    "default/coa/templates/ca-can-3-stat": [],
+    "default/coa/templates/ca-ter": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-mic-myc-hvy": [],
+    "default/coa/templates/ca-mic-myc": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "default/coa/templates/ca-hvy": []
+  },
+  "nbl": {
+    "default/coa/templates/can-4-stat": [],
+    "nbl/coa/templates/ter": [],
+    "nbl/coa/templates/hvy": [],
+    "default/coa/templates/pes": [],
+    "nbl/coa/templates/sol": [],
+    "nbl/coa/templates/mic": [],
+    "nbl/coa/templates/myc": []
+  },
+  "nca": {
+    "nca/coa/templates/can": [],
+    "default/coa/templates/sol": []
+  },
+  "ncal": {
+    "ncal/coa/templates/can-hemp": [],
+    "ncal/coa/templates/solvents": [],
+    "ncal/coa/templates/pesticides": [],
+    "ncal/coa/templates/terpenes": [],
+    "ncal/coa/templates/microbials": [],
+    "ncal/coa/templates/mycotoxins": [],
+    "ncal/coa/templates/metals": [],
+    "ncal/coa/templates/moisture": [],
+    "ncal/coa/templates/cannabinoids-ratio": []
+  },
+  "nctl": {
+    "nctl/coa/templates/cover-can-safety": [],
+    "default/coa/templates/can-saf-ter": [],
+    "default/coa/templates/ter": [],
+    "nctl/coa/templates/pes-mic-sol-hvy-myc": []
+  },
+  "niva": {
+    "niva/coa/templates/can": [],
+    "niva/coa/templates/cover": [],
+    "default/coa/templates/ca-cover-can-hemp": [],
+    "default/coa/templates/ca-mic-myc-hvy": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "default/coa/templates/ca-hvy": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-ter": [],
+    "default/coa/templates/ca-nutrients": [],
+    "niva/coa/templates/ca-ter-pic": []
+  },
+  "nl": {
+    "nl/coa/templates/can-5-stat": [],
+    "nl/coa/templates/ter": [],
+    "nl/coa/templates/mic-hvy-sol": []
+  },
+  "nlh": {
+    "nlh/coa/templates/full-combo": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/fm-basic": [],
+    "default/coa/templates/moisture-water-activity": []
+  },
+  "nor": {
+    "nor/coa/templates/cover-can-ter": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-ter": []
+  },
+  "nrc": {
+    "nrc/coa/templates/can-pes-mic-sol": [],
+    "default/coa/templates/ter": []
+  },
+  "nsl": {
+    "nsl/coa/templates/can": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/pes": []
+  },
+  "nvc": {
+    "nvc/coa/templates/can-saf-ter": [],
+    "nvc/coa/templates/can-saf-ter-edible": [],
+    "nvc/coa/templates/can-stats": [],
+    "default/coa/templates/can-3-stat-hemp": [],
+    "default/coa/templates/ter": [],
+    "nvc/coa/templates/pes-mic-hvy-myt": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/pes": [],
+    "nvc/coa/templates/h2o": [],
+    "nvc/coa/templates/dna-statbox": [],
+    "nvc/coa/templates/caffeine": [],
+    "default/coa/templates/dna": [],
+    "default/coa/templates/gender": [],
+    "default/coa/templates/vitamin-e-acetate": []
+  },
+  "oga": {
+    "oga/coa/templates/can": [],
+    "oga/coa/templates/can-rto": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/moisture": [],
+    "default/coa/templates/water-activity": [],
+    "default/coa/templates/ter": []
+  },
+  "okctl": {
+    "okctl/coa/templates/can-saf-ter": [],
+    "okctl/coa/templates/pes-mic-sol-hvy-myc": [],
+    "okctl/coa/templates/mic-myc": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/mic-with-image": []
+  },
+  "one": {
+    "one/coa/templates/can-saf-ter": [],
+    "one/coa/templates/mic-sol-hvy-myc": [],
+    "default/coa/templates/pes": []
+  },
+  "onl": {
+    "onl/coa/templates/can-saf": [],
+    "onl/coa/templates/mic-hvy": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/ter": []
+  },
+  "opt": {
+    "default/coa/templates/can-5-stat": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/hvy": [],
+    "opt/coa/templates/pes-herb": [],
+    "default/coa/templates/sol": []
+  },
+  "ota": {
+    "default/coa/templates/can-3-stat": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/ter": []
+  },
+  "pch": {
+    "default/coa/templates/can-4-stat": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/hvy": []
+  },
+  "pcl": {
+    "default/coa/templates/ca-cover-can-ter": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-mic-myc": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-hvy": []
+  },
+  "pfl": {
+    "default/coa/templates/ca-cover-can": [],
+    "default/coa/templates/ca-cover-can-hemp": [],
+    "default/coa/templates/ca-ter": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-mic-myc-hvy": [],
+    "default/coa/templates/ca-sol": [],
+    "pfl/coa/templates/ca-fmi-wa-h2o": []
+  },
+  "phs": {
+    "phs/coa/templates/ca-cover-can": [],
+    "default/coa/templates/ca-ter": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-mic-myc-hvy": [],
+    "default/coa/templates/ca-mic-myc": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-hvy": [],
+    "default/coa/templates/ca-nutrients": [],
+    "default/coa/templates/ca-alkaloids": [],
+    "default/coa/templates/ca-vitamin-e-acetate": [],
+    "phs/coa/templates/multi-package": []
+  },
+  "pix": {
+    "default/coa/templates/can-5-stat": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/sol": []
+  },
+  "plo": {
+    "plo/coa/templates/can-saf-ter": [],
+    "default/coa/templates/pes-mic-sol-hvy-myc": []
+  },
+  "pml": {
+    "default/coa/templates/ca-cover-can": [],
+    "default/coa/templates/ca-ter": [],
+    "pml/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "default/coa/templates/ca-hvy": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-nutrients": []
+  },
+  "pmt": {
+    "pmt/coa/templates/can-ter-mic": [],
+    "default/coa/templates/hvy": [],
+    "pmt/coa/templates/pes-sol": []
+  },
+  "pnc": {
+    "default/coa/templates/can-5-stat": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/ter": []
+  },
+  "pro": {
+    "default/coa/templates/ca-cover-can": [],
+    "default/coa/templates/ca-mic-myc-hvy": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "default/coa/templates/ca-hvy": [],
+    "default/coa/templates/ca-ter": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-pes": []
+  },
+  "psi": {
+    "psi/coa/templates/cover-can-safety": [],
+    "psi/coa/templates/ter": [],
+    "psi/coa/templates/pes": [],
+    "psi/coa/templates/mic-myc-hvy": [],
+    "psi/coa/templates/sol": [],
+    "psi/coa/templates/foreign_matter": [],
+    "psi/coa/templates/vitamin-e": []
+  },
+  "psl": {
+    "default/coa/templates/ca-cover-can-hemp": [],
+    "default/coa/templates/ca-cover-can": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-mic-myc": [],
+    "default/coa/templates/ca-mic-myc-hvy": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-hvy": [],
+    "default/coa/templates/ca-ter": []
+  },
+  "psn": {
+    "default/coa/templates/can-5-stat": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": []
+  },
+  "ptl": {
+    "default/coa/templates/can-5-stat": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/ter": []
+  },
+  "puer": {
+    "puer/coa/templates/can-saf": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/ter": [],
+    "puer/coa/templates/vitamin-e-acetate": []
+  },
+  "pura": {
+    "pura/coa/templates/can-5-stat": [],
+    "pura/coa/templates/can-saf-ter": [],
+    "default/coa/templates/vitamin-e-acetate": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/pes": [],
+    "pura/coa/templates/ter": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/sol": [],
+    "pura/coa/templates/dna": [],
+    "pura/coa/templates/dna-statbox": [],
+    "pura/coa/templates/solvent-purity": []
+  },
+  "pure": {
+    "pure/coa/templates/can-stat": [],
+    "pure/coa/templates/mic": [],
+    "pure/coa/templates/pes": [],
+    "pure/coa/templates/sol-fm": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/hvy": [],
+    "pure/coa/templates/ter": [],
+    "pure/coa/templates/other": []
+  },
+  "qcl": {
+    "default/coa/templates/ca-cover-can": [],
+    "default/coa/templates/ca-ter": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-mic-myc-hvy": [],
+    "default/coa/templates/ca-mic-myc": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-hvy": []
+  },
+  "qcn": {
+    "qcn/coa/templates/can-saf": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/pes-mic-sol-hvy-myc": []
+  },
+  "qls": {
+    "qls/coa/templates/cover": [],
+    "qls/coa/templates/combo-1": [],
+    "default/coa/templates/can-2-stat": [],
+    "default/coa/templates/ter": [],
+    "qls/coa/templates/combo-2": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/vitamin-e-acetate": []
+  },
+  "ref": {
+    "ref/coa/templates/can-quad-extras": [],
+    "ref/coa/templates/concentrate-combo": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/sol": [],
+    "ref/coa/templates/ter-pie-aroma": []
+  },
+  "ria": {
+    "default/coa/templates/can-2-stat": []
+  },
+  "rise": {
+    "rise/coa/templates/test": []
+  },
+  "rno": {
+    "rno/coa/templates/cover": [],
+    "rno/coa/templates/combo-1": [],
+    "default/coa/templates/can-2-stat": [],
+    "default/coa/templates/ter": [],
+    "rno/coa/templates/combo-2": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/vitamin-e-acetate": []
+  },
+  "rpa": {
+    "rpa/coa/templates/can-5-stat": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": []
+  },
+  "rrl": {
+    "default/coa/templates/can-5-stat": [],
+    "rrl/coa/templates/cannabinoids-ratio": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/moisture-water-activity": [],
+    "default/coa/templates/fm-basic": []
+  },
+  "rsr": {
+    "rsr/coa/templates/full-combo": [],
+    "rsr/coa/templates/ingestible-combo": [],
+    "rsr/coa/templates/concentrates-combo": [],
+    "rsr/coa/templates/can-saf-ter": [],
+    "rsr/coa/templates/pes-mic-sol-hvy-myc": []
+  },
+  "sag": {
+    "sag/coa/templates/cover": [],
+    "sag/coa/templates/combo-1": [],
+    "sag/coa/templates/combo-2": [],
+    "default/coa/templates/vitamin-e-acetate": [],
+    "sag/coa/templates/definitions": [],
+    "sag/coa/templates/definitions-2": []
+  },
+  "sal": {
+    "sal/coa/templates/can-fm": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/ter": []
+  },
+  "sbt": {
+    "default/coa/templates/ca-cover-can": [],
+    "sbt/coa/templates/ca-cover-can-hemp": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-mic-myc": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-hvy": [],
+    "default/coa/templates/ca-ter": []
+  },
+  "scl": {
+    "scl/coa/templates/can-saf-pie": [],
+    "scl/coa/templates/alk-saf": [],
+    "default/coa/templates/ter-pie-aroma": [],
+    "default/coa/templates/pes-mic-sol-hvy-myc": [],
+    "default/coa/templates/alkaloids": [],
+    "scl/coa/templates/dna": [],
+    "scl/coa/templates/disclaimer": []
+  },
+  "scp": {
+    "scp/coa/templates/can-mic-myc-combo": ["mic","myc"],
+    "scp/coa/templates/can-saf-ter": ["can","ter"],
+    "scp/coa/templates/pes-mic-sol": ["pes","mic","sol"],
+    "default/coa/templates/sol": ["sol"],
+    "default/coa/templates/mic": ["mic"],
+    "default/coa/templates/myc": ["myc"],
+    "default/coa/templates/hvy": ["hvy"],
+    "default/coa/templates/ter": ["ter"],
+    "default/coa/templates/pes": ["pes"],
+    "scp/coa/templates/misc": ["misc"]
+  },
+  "sdl": {
+    "default/coa/templates/can-5-stat": [],
+    "default/coa/templates/can-saf-ter": [],
+    "default/coa/templates/mic-myc": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/water-activity": []
+  },
+  "sha": {
+    "sha/coa/templates/ca-cover-can": [],
+    "sha/coa/templates/ca-cover": [],
+    "default/coa/templates/ca-ter": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-hvy": [],
+    "default/coa/templates/ca-alkaloids": [],
+    "sha/coa/templates/ca-fm-basic": [],
+    "sha/coa/templates/nutrients": []
+  },
+  "shar": {
+    "shar/coa/templates/can-saf": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/pes": [],
+    "shar/coa/templates/sol-mic-myc-hvy": []
+  },
+  "shca": {
+    "shca/coa/templates/ca-cover-can": [],
+    "shca/coa/templates/ca-cover": [],
+    "default/coa/templates/ca-ter": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-hvy": [],
+    "default/coa/templates/ca-alkaloids": [],
+    "shca/coa/templates/ca-fm-basic": [],
+    "shca/coa/templates/nutrients": []
+  },
+  "shh": {
+    "shh/coa/templates/cover": [],
+    "shh/coa/templates/can-ter-mic-h20-fmi": [],
+    "shh/coa/templates/myc-hvy-sol": [],
+    "default/coa/templates/pes": []
+  },
+  "shma": {
+    "shma/coa/templates/cover": [],
+    "shma/coa/templates/can-hvy": [],
+    "shma/coa/templates/mic-myc": [],
+    "shma/coa/templates/sol-pes-vit-e": [],
+    "shma/coa/templates/ter": []
+  },
+  "shmd": {
+    "shmd/coa/templates/cover-can": [],
+    "shmd/coa/templates/combo": [],
+    "default/coa/templates/ca-pes": []
+  },
+  "shok": {
+    "shok/coa/templates/cover": [],
+    "shok/coa/templates/can-ter": [],
+    "default/coa/templates/pes-mic-sol-hvy-myc": []
+  },
+  "sig": {
+    "sig/coa/templates/can-5-stat": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "sig/coa/templates/ter": [],
+    "default/coa/templates/alkaloids": [],
+    "default/coa/templates/nutrients": [],
+    "sig/coa/templates/odour": [],
+    "sig/coa/templates/appearance": [],
+    "sig/coa/templates/precipitation": [],
+    "sig/coa/templates/viscosity": [],
+    "sig/coa/templates/caffeine": [],
+    "sig/coa/templates/peroxide": [],
+    "sig/coa/templates/wa": [],
+    "sig/coa/templates/moisture": [],
+    "sig/coa/templates/ph": [],
+    "sig/coa/templates/fmi": [],
+    "sig/coa/templates/density": []
+  },
+  "sl": {
+    "sl/coa/templates/can-saf-ter": [],
+    "sl/coa/templates/pes-mic-sol-hvy-myc": [],
+    "default/coa/templates/nutrients": []
+  },
+  "spt": {
+    "spt/coa/templates/can": [],
+    "spt/coa/templates/ter": [],
+    "spt/coa/templates/sol": [],
+    "spt/coa/templates/mic": [],
+    "spt/coa/templates/pes": [],
+    "spt/coa/templates/metals": [],
+    "spt/coa/templates/moisture": [],
+    "spt/coa/templates/gender": [],
+    "spt/coa/templates/myc": [],
+    "spt/coa/templates/vitamin-e": []
+  },
+  "sqa": {
+    "sqa/coa/templates/combo-ingestibles": [],
+    "sqa/coa/templates/combo-1": [],
+    "sqa/coa/templates/combo-2": [],
+    "sqa/coa/templates/cover-can-ter": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-sol": [],
+    "sqa/coa/templates/mic-sol": [],
+    "default/coa/templates/ca-myc": []
+  },
+  "stc": {
+    "default/coa/templates/can-5-stat": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/ter": []
+  },
+  "std": {
+    "std/coa/templates/can-safety": [],
+    "std/coa/templates/can-safety-ingestibles": [],
+    "std/coa/templates/ter-pie-aroma": [],
+    "std/coa/templates/myc-mic-sol-hvy": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/water-activity": [],
+    "default/coa/templates/vitamin-e-acetate": [],
+    "default/coa/templates/moisture": []
+  },
+  "stl": {
+    "stl/coa/templates/can-3-stat": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "stl/coa/templates/disclaimer": []
+  },
+  "sts": {
+    "sts/coa/templates/cover-can-ter": [],
+    "sts/coa/templates/combo": []
+  },
+  "stw": {
+    "stw/coa/templates/can": [],
+    "stw/coa/templates/ter": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/hvy": [],
+    "stw/coa/templates/sol": [],
+    "default/coa/templates/fm-basic": [],
+    "default/coa/templates/moisture": [],
+    "stw/coa/templates/notes": []
+  },
+  "svl": {
+    "default/coa/templates/can-saf-ter": [],
+    "svl/coa/templates/mic-sol-hvy-myc": [],
+    "default/coa/templates/pes": []
+  },
+  "syl": {
+    "syl/coa/templates/can-ter-saf-h2o-wa": [],
+    "default/coa/templates/can-5-stat": [],
+    "default/coa/templates/can-4-stat": [],
+    "default/coa/templates/can-3-stat": [],
+    "default/coa/templates/can-2-stat": [],
+    "syl/coa/templates/ter": [],
+    "syl/coa/templates/mic": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/pes": [],
+    "syl/coa/templates/mic-hvy-myc": []
+  },
+  "taa": {
+    "default/coa/templates/ca-cover-can-hemp": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-mic-myc": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-hvy": [],
+    "default/coa/templates/ca-ter": []
+  },
+  "tba": {
+    "tba/coa/templates/can": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/mic": []
+  },
+  "ten": {
+    "default/coa/templates/can-5-stat": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/ter": []
+  },
+  "teq": {
+    "teq/coa/templates/can-3-stat": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/sol": [],
+    "teq/coa/templates/mic": [],
+    "teq/coa/templates/myc": [],
+    "teq/coa/templates/hvy": [],
+    "teq/coa/templates/pes": [],
+    "teq/coa/templates/sol": []
+  },
+  "thca": {
+    "thca/coa/templates/ca-cover-can": [],
+    "default/coa/templates/ca-ter": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-mic-myc-hvy": [],
+    "default/coa/templates/ca-mic-myc": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-hvy": [],
+    "thca/coa/templates/ca-dna": []
+  },
+  "thcc": {
+    "thcc/coa/templates/cover": [],
+    "thcc/coa/templates/combo-1": [],
+    "thcc/coa/templates/combo-2": [],
+    "thcc/coa/templates/vea": []
+  },
+  "thr": {
+    "thr/coa/templates/can-cover": [],
+    "thr/coa/templates/ter-sol": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/sol": []
+  },
+  "tlm": {
+    "tlm/coa/templates/can-a": [],
+    "tlm/coa/templates/can-b": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/ter": []
+  },
+  "tln": {
+    "tln/coa/templates/can-saf-cover": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/mic": [],
+    "tln/coa/templates/hvy-myc": [],
+    "default/coa/templates/sol": []
+  },
+  "tnw": {
+    "tnw/coa/templates/cover-can": [],
+    "tnw/coa/templates/can-3-stat-hemp": [],
+    "tnw/coa/templates/ter-mic-sol-hvy-myc": [],
+    "default/coa/templates/pes": []
+  },
+  "trc": {
+    "trc/coa/templates/can-mic-ter-combo": [],
+    "trc/coa/templates/concentrate-combo": [],
+    "trc/coa/templates/flower-combo": [],
+    "trc/coa/templates/can": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/water-activity": [],
+    "default/coa/templates/myc": []
+  },
+  "trhl": {
+    "trhl/coa/templates/ca-cover-can": [],
+    "default/coa/templates/ca-ter": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-sol": [],
+    "trhl/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "default/coa/templates/ca-hvy": [],
+    "default/coa/templates/ca-dna": []
+  },
+  "tri": {
+    "tri/coa/templates/can-4-stat": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/nutrients": [],
+    "tri/coa/templates/fmi-hom": [],
+    "tri/coa/templates/moisture-water-activity": []
+  },
+  "truf": {
+    "default/coa/templates/ca-cover-can": [],
+    "default/coa/templates/ca-ter": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "default/coa/templates/ca-hvy": [],
+    "default/coa/templates/ca-mic-myc-hvy": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-sol": []
+  },
+  "tsf": {
+    "tsf/coa/templates/nevada-suite-1": [],
+    "tsf/coa/templates/nevada-suite-1-edible": [],
+    "tsf/coa/templates/nevada-suite-2": [],
+    "tsf/coa/templates/cannabinoids": [],
+    "tsf/coa/templates/cannabinoids-hemp": [],
+    "tsf/coa/templates/ca-industrial-hemp": [],
+    "tsf/coa/templates/ter": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/mic-with-image": [],
+    "default/coa/templates/water-activity": [],
+    "default/coa/templates/vitamin-e-acetate": []
+  },
+  "tvl": {
+    "default/coa/templates/ca-cover-can": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "default/coa/templates/ca-hvy": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-ter": []
+  },
+  "uia": {
+    "default/coa/templates/can-2-stat": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/ter": []
+  },
+  "upgc": {
+    "default/coa/templates/can-2-stat": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/ter": []
+  },
+  "usc": {
+    "usc/coa/templates/can-ter-cover": [],
+    "usc/coa/templates/can-ter-ingestible-cover": [],
+    "usc/coa/templates/hvy-myc-sol-pes-mic": []
+  },
+  "vhl": {
+    "vhl/coa/templates/cover-can-ter": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "vhl/coa/templates/mic-myc-sol": []
+  },
+  "vic": {
+    "vic/coa/templates/can-mic-myc-combo": [],
+    "vic/coa/templates/can": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/ter": []
+  },
+  "vrx": {
+    "vrx/coa/templates/ca-cover-can": [],
+    "default/coa/templates/ca-ter": [],
+    "default/coa/templates/ca-pes": [],
+    "default/coa/templates/ca-mic-myc-hvy": [],
+    "default/coa/templates/ca-mic-myc": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-hvy": []
+  },
+  "wdl": {
+    "default/coa/templates/ca-cover-can": [],
+    "default/coa/templates/ca-ter": [],
+    "default/coa/templates/ca-mic": [],
+    "default/coa/templates/ca-myc": [],
+    "default/coa/templates/ca-hvy": [],
+    "default/coa/templates/ca-mic-myc": [],
+    "default/coa/templates/ca-mic-myc-hvy": [],
+    "default/coa/templates/ca-sol": [],
+    "default/coa/templates/ca-pes": []
+  },
+  "wil": {
+    "wil/coa/templates/can-5-stat": [],
+    "default/coa/templates/mic": [],
+    "default/coa/templates/myc": [],
+    "default/coa/templates/hvy": [],
+    "default/coa/templates/pes": [],
+    "default/coa/templates/sol": [],
+    "default/coa/templates/ter": [],
+    "default/coa/templates/water-activity": []
+  }
+}

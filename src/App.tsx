@@ -12,6 +12,7 @@ import MenuIcon from "@material-ui/icons/Menu";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 import Button from '@material-ui/core/Button';
+import TextField from "@material-ui/core/TextField";
 import axios from 'axios';
 
 import {
@@ -28,8 +29,10 @@ import {
   Redirect
 } from "react-router-dom";
 
+import MultiConfigUpdater from "./pages/MultiConfigUpdater/MultiConfigUpdater";
 import JaxxConfigUpdater from "./pages/JaxxConfigUpdater/JaxxConfigUpdater";
-import Test from "./pages/AnalyteFinder/AnalyteFinder";
+import AnalyteFinder from "./pages/AnalyteFinder/AnalyteFinder";
+import ImporterHelper from "./pages/ImporterHelper/ImporterHelper";
 
 import "./App.css";
 
@@ -87,8 +90,9 @@ const App: React.FC = (props: any, state: any) => {
   };
 
   const loginInternal = () => {
-    axios.post(`/api/login-internal`, {email: "jeff.campecino@confidentcannabis.com", password: "8JF2DfZHVppja6b"}).then((response) => {
-      console.log(response)
+    axios.post(`/api/login-internal`, {email: "jeff.campecino@confidentcannabis.com", password: "qwerty"}).then((response) => {
+      console.log(response.data)
+      localStorage.setItem('cc_session', response.data)
     });
   }
 
@@ -97,6 +101,21 @@ const App: React.FC = (props: any, state: any) => {
       <div className={classes.toolbar} />
       <Divider />
       <List>
+        <Link to="/multiconfigupdater" style={{ textDecoration: "none" }}>
+          <ListItem button>
+            <ListItemText
+              disableTypography
+              primary={
+                <Typography
+                  className={classes.typography}
+                  style={{ fontSize: "14px" }}
+                >
+                  Multi Config Updater
+                </Typography>
+              }
+            />
+          </ListItem>
+        </Link>
         <Link to="/jaxxconfigupdater" style={{ textDecoration: "none" }}>
           <ListItem button>
             <ListItemText
@@ -122,6 +141,21 @@ const App: React.FC = (props: any, state: any) => {
                   style={{ fontSize: "14px" }}
                 >
                   Analyte Finder
+                </Typography>
+              }
+            />
+          </ListItem>
+        </Link>
+        <Link to="/importerhelper" style={{ textDecoration: "none" }}>
+          <ListItem button>
+            <ListItemText
+              disableTypography
+              primary={
+                <Typography
+                  className={classes.typography}
+                  style={{ fontSize: "14px" }}
+                >
+                  Importer Helper
                 </Typography>
               }
             />
@@ -154,7 +188,9 @@ const App: React.FC = (props: any, state: any) => {
             <Typography className={classes.typography} noWrap>
               CC Lab Support Toolbox
             </Typography>
-            <Button variant="outlined" style={{ position: 'absolute', right: '15px' }} onClick={() => loginInternal() }>
+            <input  style={{ position: 'absolute', right: '355px' }} placeholder="Email" className="login-internal-fields" />
+            <input style={{ position: 'absolute', right: '175px' }} placeholder="Password" className="login-internal-fields" />
+            <Button variant="outlined" style={{ position: 'absolute', right: '15px', borderRadius: '0px' }} onClick={() => loginInternal() }>
                 <Typography className="easy-font" style={{ fontFamily: 'Open Sans', fontSize: '12px' }}>
                   LOGIN TO INTERNAL
                 </Typography>
@@ -196,14 +232,23 @@ const App: React.FC = (props: any, state: any) => {
           <div className={classes.toolbar} />
           <div>
             <Switch>
+              <Route path="/multiconfigupdater">
+                <MultiConfigUpdater />
+              </Route>
               <Route path="/jaxxconfigupdater">
                 <JaxxConfigUpdater />
               </Route>
               <Route path="/analytefinder">
-                <Test />
+                <AnalyteFinder />
+              </Route>
+              <Route path="/importerhelper">
+                <ImporterHelper />
               </Route>
               <Route exact path="/">
-                <Redirect to="/jaxxconfigupdater" />
+                <Redirect to="/multiconfigupdater" />
+              </Route>
+              <Route exact path="/">
+                <Redirect to="/multiconfigupdater" />
               </Route>
             </Switch>
           </div>

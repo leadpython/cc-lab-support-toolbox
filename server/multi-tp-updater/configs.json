@@ -1,0 +1,5626 @@
+{
+  "ch": {
+    "additional_files": "default/coa/templates/additional_files",
+    "qc": "default/coa/templates/qc",
+    "page_priority": [],
+    "packages": {
+      "125": {
+        "name": "Potency - Batch Specific.",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN",
+          "H20",
+          "WA"
+        ]
+      },
+      "126": {
+        "name": "53 Terpene Advisory.",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "TER",
+          "H20"
+        ]
+      },
+      "129": {
+        "name": "Residual Solvents Compliance Test.",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Concentrates & Extracts",
+          "Other"
+        ],
+        "test_types": [
+          "SOL-R"
+        ]
+      },
+      "213": {
+        "name": "(1/2) Full Compliance- Solvent Free Concentrates",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "CAN",
+          "PES-R"
+        ]
+      },
+      "999": {
+        "name": "Full Compliance - Flower",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN",
+          "PES-R",
+          "H20",
+          "WA"
+        ]
+      },
+      "1012": {
+        "name": "(1/2) Full Compliance- Extracts",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "CAN",
+          "SOL-R",
+          "PES-R"
+        ]
+      },
+      "1141": {
+        "name": "2 Business Day Rush",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "OTHER"
+        ]
+      },
+      "2443": {
+        "name": "Loss on Drying Moisture Analysis.",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "H20"
+        ]
+      },
+      "2444": {
+        "name": "Water Activity.",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "WA"
+        ]
+      },
+      "4333": {
+        "name": "(1/2) Potency Compliance- Ingestibles & Topicals.",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Ingestible",
+          "Topical"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "4496": {
+        "name": "Pesticide Compliance.",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "PES-R"
+        ]
+      },
+      "4844": {
+        "name": "Potency Advisory - Flower",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Other"
+        ],
+        "test_types": [
+          "CAN",
+          "H20"
+        ]
+      },
+      "4845": {
+        "name": "Potency Advisory - Ingestibles & Topicals",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Ingestible",
+          "Topical"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "4888": {
+        "name": "Residual Solvent Advisory.",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "SOL-R",
+          "OTHER"
+        ]
+      },
+      "6383": {
+        "name": "(1/2) Potency Only Compliance - Concentrates & Extracts",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "6899": {
+        "name": "Cannabinoid Ratio Advisory",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "RTO"
+        ]
+      },
+      "8241": {
+        "name": "Composite Harvest Potency.",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN",
+          "H20",
+          "WA"
+        ]
+      },
+      "8935": {
+        "name": "Trip Fee / Pre Harvest Trip Fee",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "OTHER"
+        ]
+      },
+      "9043": {
+        "name": "Composite Batch Pesticide.",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "PES-R"
+        ]
+      },
+      "9061": {
+        "name": "Composite Batch Pesticide (additional from batch).",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "PES-A"
+        ]
+      },
+      "9086": {
+        "name": "Composite Harvest Potency (additional batches.).",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN",
+          "H20",
+          "WA"
+        ]
+      },
+      "15574": {
+        "name": "53 Terpene Advisory $35 w/ FC add on",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "TER"
+        ]
+      },
+      "20952": {
+        "name": "HEMP PRE Harvest Industrial Lot Compliance.",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Other"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "25814": {
+        "name": "HEMP PRE Harvest Potency Advisory.",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Other"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "26108": {
+        "name": "Pesticide Advisory.",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "PES-R"
+        ]
+      },
+      "26958": {
+        "name": "Delta 9 Template - Flower & Extracts/Concentrates",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Other"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "27060": {
+        "name": "Biomass",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN",
+          "H20"
+        ]
+      },
+      "28481": {
+        "name": "Myco Toxin Advisory",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "MYC"
+        ]
+      },
+      "35011": {
+        "name": "Next Business Day Rush",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "OTHER"
+        ]
+      },
+      "38937": {
+        "name": "Δ9 Template - Ingestibles & Topicals",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "39224": {
+        "name": "Boutique Advisory - Concentrates & Extracts",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Concentrates & Extracts",
+          "Other"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "42373": {
+        "name": "Chromatography",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "CAN",
+          "OTHER"
+        ]
+      },
+      "46296": {
+        "name": "Heavy Metals Advisory",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "HVY"
+        ]
+      },
+      "46520": {
+        "name": "53 Terpene Advisory (add on from batch) w/ FC add on",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "TER"
+        ]
+      },
+      "48048": {
+        "name": "Aerobic Count Advisory",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "MIC-A"
+        ]
+      },
+      "48049": {
+        "name": "E-coli & Coliform Advisory",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "MIC-A"
+        ]
+      },
+      "54453": {
+        "name": "Additives Panel",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "OTHER"
+        ]
+      },
+      "65167": {
+        "name": "Friedelin (Root Mass) Advisory",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "TER"
+        ]
+      },
+      "77746": {
+        "name": "Mold & Yeast Advisory",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "MIC-A"
+        ]
+      },
+      "81427": {
+        "name": "CannaZoom Advisory- Extracts/Concentrates",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "CAN",
+          "H20"
+        ]
+      },
+      "83286": {
+        "name": "Enterobacteriaceae Advisory",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "MIC-A"
+        ]
+      },
+      "89325": {
+        "name": "Boutiques w/ FC add on",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "92385": {
+        "name": "Salmonella Advisory",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "MIC-R"
+        ]
+      },
+      "94668": {
+        "name": "Kratom Alkaloid Advisory",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Ingestible",
+          "Other"
+        ],
+        "test_types": [
+          "FMI"
+        ]
+      },
+      "98757": {
+        "name": "Ethanol Advisory",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "SOL-A"
+        ]
+      },
+      "99021": {
+        "name": "Potency Advisory - Concentrates & Extracts",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Concentrates & Extracts",
+          "Other"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "99045": {
+        "name": "Boutique Advisory - Flower",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN",
+          "H20"
+        ]
+      },
+      "99048": {
+        "name": "Boutique Advisory - Ingestibles & Topicals",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Ingestible",
+          "Topical"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "99665": {
+        "name": "Cancelled",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "NUT"
+        ]
+      },
+      "100897": {
+        "name": "Seedling Sex Determination",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "MIC-A"
+        ]
+      },
+      "109238": {
+        "name": "(1/2) Full Compliance - Kief",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "CAN",
+          "PES-R",
+          "WA"
+        ]
+      },
+      "113093": {
+        "name": "Average Potency - Batch Specific.",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN",
+          "H20",
+          "WA"
+        ]
+      },
+      "116531": {
+        "name": "Aspergillus Advisory- Flower Only",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "MIC-A"
+        ]
+      },
+      "118213": {
+        "name": "Virus",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "MIC-A"
+        ]
+      },
+      "119715": {
+        "name": "Potency Advisory by LC-Mass Spec",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "120629": {
+        "name": "Δ8 Template - Ingestibles & Topicals",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Ingestible",
+          "Topical"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "120661": {
+        "name": "CBG Template - Ingestibles & Topicals",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Ingestible",
+          "Topical"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "120961": {
+        "name": "Special Request",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "121311": {
+        "name": "LIMS Pest Comp",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "PES-R"
+        ]
+      },
+      "121312": {
+        "name": "LIMS Pot Comp",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "124263": {
+        "name": "(1/2) Full Compliance- Inhalable Products",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "CAN",
+          "SOL-R",
+          "PES-R"
+        ]
+      },
+      "124330": {
+        "name": "(1/2) Full Compliance- Solvent Free Inhalable Products",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "CAN",
+          "PES-R"
+        ]
+      }
+    }
+  },
+  "thcc": {
+    "additional_files": "default/coa/templates/additional_files",
+    "qc": "default/coa/templates/qc",
+    "page_priority": [],
+    "packages": {
+      "105965": {
+        "name": "MED Full Compliance - Flower/Shake/Trim",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN",
+          "MIC-R",
+          "PES-R",
+          "HVY",
+          "WA",
+          "FMI"
+        ]
+      },
+      "106526": {
+        "name": "Potency/Cannabinoids - Flower/Shake/Trim",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "106527": {
+        "name": "Foreign Matter- Flower/Shake/Trim",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "FMI"
+        ]
+      },
+      "106530": {
+        "name": "Heavy Metal Screen - Flower/Shake/Trim",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "HVY"
+        ]
+      },
+      "106532": {
+        "name": "Pesticides/Chemical Residue Analysis - Flower/Shake/Trim",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "PES-R"
+        ]
+      },
+      "106533": {
+        "name": "Water Activity - Flower/Shake/Trim",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "WA"
+        ]
+      },
+      "106681": {
+        "name": "AU Full Compliance - Flower/Shake/Trim",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN",
+          "MIC-R",
+          "PES-R",
+          "HVY",
+          "WA",
+          "FMI"
+        ]
+      },
+      "107585": {
+        "name": "R&D Potency/Cannabinoids - Flower/Shake/Trim",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "113984": {
+        "name": "MED Microbial Screening - Flower/Shake/Trim",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "MIC-R"
+        ]
+      },
+      "113986": {
+        "name": "AU Microbial Screening - Flower/Shake/Trim",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "MIC-R"
+        ]
+      },
+      "116509": {
+        "name": "R&D MED Full Panel Testing - Flower/Shake/Trim",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN",
+          "MIC-R",
+          "PES-R",
+          "HVY",
+          "WA",
+          "FMI"
+        ]
+      },
+      "117917": {
+        "name": "AU R&D Microbial Screening- Flower/Shake/Trim",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "MIC-R"
+        ]
+      },
+      "123261": {
+        "name": "R&D AU Full Panel testing - Flower Shake Trim",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN",
+          "MIC-R",
+          "PES-R",
+          "HVY",
+          "WA",
+          "FMI"
+        ]
+      },
+      "123319": {
+        "name": "R&D MED Microbial Screening - Flower/Shake/Trim",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "MIC-R"
+        ]
+      },
+      "123322": {
+        "name": "Full Compliance - Solvent Based Conc",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "CAN",
+          "SOL-R",
+          "PES-R",
+          "HVY"
+        ]
+      },
+      "123325": {
+        "name": "Potency/Cannabinoids - Conc",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "123339": {
+        "name": "Pesticides - Conc",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "PES-R"
+        ]
+      },
+      "123342": {
+        "name": "Heavy Metal Screening - Conc",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "HVY"
+        ]
+      },
+      "123356": {
+        "name": "Residual Solvents - Conc",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "SOL-R"
+        ]
+      },
+      "123357": {
+        "name": "R&D Full Panel Testing - Solvent Based Conc",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "CAN",
+          "SOL-R",
+          "PES-R",
+          "HVY"
+        ]
+      },
+      "123360": {
+        "name": "AU Full Compliance NON Solvent Based Conc",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "CAN",
+          "MIC-R",
+          "PES-R",
+          "HVY",
+          "FMI"
+        ]
+      },
+      "123361": {
+        "name": "MED Full Compliance NON Solvent based Conc",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "CAN",
+          "MIC-R",
+          "PES-R",
+          "HVY",
+          "FMI"
+        ]
+      },
+      "123362": {
+        "name": "AU Full Compliance - Edible",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Ingestible"
+        ],
+        "test_types": [
+          "CAN",
+          "SOL-R",
+          "MIC-R",
+          "PES-R",
+          "HVY",
+          "WA",
+          "FMI"
+        ]
+      },
+      "123363": {
+        "name": "MED Full Compliance - Edible",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Ingestible"
+        ],
+        "test_types": [
+          "CAN",
+          "SOL-R",
+          "MIC-R",
+          "PES-R",
+          "HVY",
+          "WA",
+          "FMI"
+        ]
+      },
+      "123364": {
+        "name": "Potency/Cannabinoids - edible",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Ingestible"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "123378": {
+        "name": "R&D AU Full Compliance NON Solvent Based",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "CAN",
+          "MIC-R",
+          "PES-R",
+          "HVY",
+          "FMI"
+        ]
+      },
+      "123379": {
+        "name": "R&D MED Full Compliance NON Solvent Based",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "CAN",
+          "MIC-R",
+          "PES-R",
+          "HVY",
+          "FMI"
+        ]
+      },
+      "123380": {
+        "name": "Foreign Matter - edible",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Ingestible"
+        ],
+        "test_types": [
+          "FMI"
+        ]
+      },
+      "123381": {
+        "name": "AU Microbial Screening - edible",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Ingestible"
+        ],
+        "test_types": [
+          "MIC-R"
+        ]
+      },
+      "123382": {
+        "name": "MED Microbial Screening - edible",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Ingestible"
+        ],
+        "test_types": [
+          "MIC-R"
+        ]
+      },
+      "123385": {
+        "name": "Water Activity - edible",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Ingestible"
+        ],
+        "test_types": [
+          "WA"
+        ]
+      },
+      "123386": {
+        "name": "Heavy Metal Screening - edible",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Ingestible"
+        ],
+        "test_types": [
+          "HVY"
+        ]
+      },
+      "123387": {
+        "name": "Residual Solvents - edible",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Ingestible"
+        ],
+        "test_types": [
+          "SOL-R"
+        ]
+      },
+      "123388": {
+        "name": "Pesticides - edible",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Ingestible"
+        ],
+        "test_types": [
+          "PES-R"
+        ]
+      },
+      "123389": {
+        "name": "Vit E Acetate ADD ON",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "124118": {
+        "name": "Copper",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "HVY"
+        ]
+      },
+      "124411": {
+        "name": "R&D Full Panel Distillate ADD VIT E",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "CAN",
+          "SOL-R",
+          "PES-R",
+          "HVY"
+        ]
+      },
+      "124412": {
+        "name": "Full Compliance Solvent based Distillate ADD VIT E",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "CAN",
+          "SOL-R",
+          "PES-R",
+          "HVY"
+        ]
+      },
+      "124426": {
+        "name": "Vitamine E Acetate",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      }
+    }
+  },
+  "es": {
+    "additional_files": "default/coa/templates/additional_files",
+    "qc": "default/coa/templates/qc",
+    "page_priority": [],
+    "packages": {
+      "95650": {
+        "name": "Oklahoma Compliance Test (Flower)",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN",
+          "TER",
+          "MIC-R",
+          "PES-R",
+          "MYC",
+          "HVY",
+          "H20",
+          "WA",
+          "FMI"
+        ]
+      },
+      "95651": {
+        "name": "Oklahoma Compliance Test (Derivative)",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "CAN",
+          "TER",
+          "SOL-R",
+          "MIC-R",
+          "PES-R",
+          "MYC",
+          "HVY",
+          "FMI"
+        ]
+      },
+      "95652": {
+        "name": "Oklahoma Compliance Test (Edibles)",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Ingestible"
+        ],
+        "test_types": [
+          "CAN",
+          "TER",
+          "MIC-R",
+          "PES-R",
+          "MYC",
+          "FMI"
+        ]
+      },
+      "95653": {
+        "name": "Cannabinoid",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "95654": {
+        "name": "Cannabinoid and Terpene",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible"
+        ],
+        "test_types": [
+          "CAN",
+          "TER"
+        ]
+      },
+      "95655": {
+        "name": "Nutraceutical",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Other"
+        ],
+        "test_types": [
+          "MIC-R",
+          "HVY",
+          "OTHER"
+        ]
+      },
+      "103313": {
+        "name": "Curcumin",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Other"
+        ],
+        "test_types": [
+          "NUT"
+        ]
+      },
+      "103395": {
+        "name": "Terpernes",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "TER"
+        ]
+      },
+      "103397": {
+        "name": "Pesticides and mycotoxins",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "PES-R",
+          "MYC",
+          "PES-A"
+        ]
+      },
+      "106201": {
+        "name": "Heavy Metals",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Other"
+        ],
+        "test_types": [
+          "HVY"
+        ]
+      },
+      "106202": {
+        "name": "Micro",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Other"
+        ],
+        "test_types": [
+          "MIC-R"
+        ]
+      },
+      "115179": {
+        "name": "Filth",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible"
+        ],
+        "test_types": [
+          "FMI"
+        ]
+      },
+      "120568": {
+        "name": "Preroll",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN",
+          "HVY",
+          "FMI"
+        ]
+      },
+      "120569": {
+        "name": "Infused Preroll",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "CAN",
+          "TER",
+          "MIC-R",
+          "PES-R",
+          "MYC",
+          "HVY",
+          "H20",
+          "WA"
+        ]
+      },
+      "120576": {
+        "name": "R&D Package 1",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "MIC-R",
+          "PES-R",
+          "MYC",
+          "HVY"
+        ]
+      }
+    }
+  },
+  "sl": {
+    "additional_files": "default/coa/templates/additional_files",
+    "qc": "default/coa/templates/qc",
+    "page_priority": [],
+    "packages": {
+      "82070": {
+        "name": "R&D: Cannabinoid Potency",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN",
+          "H20"
+        ]
+      },
+      "82071": {
+        "name": "R&D: Terpene Profile",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "TER"
+        ]
+      },
+      "82072": {
+        "name": "R&D Potency and Terpenes",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN",
+          "TER",
+          "H20"
+        ]
+      },
+      "82074": {
+        "name": "R&D: Filth and Foreign Matter",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "FMI"
+        ]
+      },
+      "82075": {
+        "name": "R&D: Water Activity",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "WA"
+        ]
+      },
+      "82078": {
+        "name": "OMMA Compliance Suite - Cured Flower",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN",
+          "TER",
+          "MIC-R",
+          "PES-R",
+          "HVY",
+          "H20",
+          "WA",
+          "FMI"
+        ]
+      },
+      "82079": {
+        "name": "OMMA Compliance Suite - Concentrates",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "CAN",
+          "TER",
+          "SOL-R",
+          "MIC-R",
+          "PES-R",
+          "MYC",
+          "HVY",
+          "FMI"
+        ]
+      },
+      "82080": {
+        "name": "OMMA Compliance Suite - Edible/Topical",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Ingestible",
+          "Topical"
+        ],
+        "test_types": [
+          "CAN",
+          "TER",
+          "SOL-R",
+          "MIC-R",
+          "PES-R",
+          "MYC",
+          "HVY",
+          "FMI"
+        ]
+      },
+      "82084": {
+        "name": "R&D: Residual Solvents",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "SOL-R"
+        ]
+      },
+      "82085": {
+        "name": "R&D: Heavy Metals",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "HVY"
+        ]
+      },
+      "82086": {
+        "name": "R&D: Pesticides",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "PES-R"
+        ]
+      },
+      "82089": {
+        "name": "R&D: Mycotoxins",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "MYC"
+        ]
+      },
+      "82090": {
+        "name": "R&D: Microbial",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "MIC-R"
+        ]
+      },
+      "83311": {
+        "name": "Rush Potency Upcharge",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "OTHER"
+        ]
+      },
+      "83312": {
+        "name": "Potency and Terpenes Rush Upcharge",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "OTHER"
+        ]
+      },
+      "83442": {
+        "name": "R&D: Moisture Content",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "H20"
+        ]
+      },
+      "84337": {
+        "name": "Contaminants Suite for Composite Concentrate Sample",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "SOL-R",
+          "MIC-R",
+          "PES-R",
+          "MYC",
+          "HVY",
+          "FMI"
+        ]
+      },
+      "92364": {
+        "name": "R&D: Aspergillus Panel",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "MIC-R"
+        ]
+      },
+      "92365": {
+        "name": "R&D: Yeast and Mold",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "MIC-R"
+        ]
+      },
+      "96073": {
+        "name": "R&D: Cannabanoid Potency",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "96169": {
+        "name": "R&D: Potency and Terpenes",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical"
+        ],
+        "test_types": [
+          "CAN",
+          "TER"
+        ]
+      },
+      "100886": {
+        "name": "OMMA Patient Package",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN",
+          "MIC-R",
+          "H20"
+        ]
+      },
+      "101653": {
+        "name": "Contaminants Suite for Composite Flower",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "MIC-R",
+          "PES-R",
+          "HVY",
+          "WA",
+          "FMI"
+        ]
+      },
+      "106981": {
+        "name": "Compliance Suite Rush Upcharge",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "OTHER"
+        ]
+      },
+      "107534": {
+        "name": "R&D: Compliance Suite - Cured Flower",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN",
+          "TER",
+          "MIC-R",
+          "PES-R",
+          "HVY",
+          "H20",
+          "WA",
+          "FMI"
+        ]
+      },
+      "107535": {
+        "name": "R&D Compliance Suite - Concentrates/Edibles/Topicals",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical"
+        ],
+        "test_types": [
+          "CAN",
+          "TER",
+          "SOL-R",
+          "MIC-R",
+          "PES-R",
+          "MYC",
+          "HVY",
+          "FMI"
+        ]
+      },
+      "107576": {
+        "name": "Potency and Terpenes Composite",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN",
+          "TER",
+          "H20"
+        ]
+      },
+      "108189": {
+        "name": "OMMA Compliance Suite - Edible/Topical",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Ingestible",
+          "Topical"
+        ],
+        "test_types": [
+          "CAN",
+          "TER",
+          "SOL-R",
+          "MIC-R",
+          "PES-R",
+          "MYC",
+          "HVY",
+          "FMI"
+        ]
+      },
+      "108278": {
+        "name": "R&D: Water Activity",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Ingestible"
+        ],
+        "test_types": [
+          "WA"
+        ]
+      },
+      "108616": {
+        "name": "OMMA Compliance Suite - Noninfused Prerolls",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN",
+          "HVY",
+          "H20",
+          "FMI"
+        ]
+      },
+      "108617": {
+        "name": "OMMA Compliance Suite - Infused Flower Products",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "CAN",
+          "TER",
+          "SOL-R",
+          "MIC-R",
+          "PES-R",
+          "MYC",
+          "HVY",
+          "H20",
+          "WA",
+          "FMI"
+        ]
+      },
+      "109215": {
+        "name": "Retest: Yeast and Mold",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "MIC-R"
+        ]
+      },
+      "109216": {
+        "name": "Retest: Heavy Metals",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "HVY"
+        ]
+      },
+      "109217": {
+        "name": "Retest: Pesticides",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "PES-R"
+        ]
+      },
+      "109218": {
+        "name": "Retest: Residual Solvents",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "SOL-R"
+        ]
+      },
+      "109220": {
+        "name": "Retest: Aspergillus",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "MIC-R"
+        ]
+      },
+      "109221": {
+        "name": "Retest: Moisture Content",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "H20"
+        ]
+      },
+      "109222": {
+        "name": "Retest: Water Activity",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "WA"
+        ]
+      },
+      "109486": {
+        "name": "OMMA Compliance Suite - Fresh Frozen Flower",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN",
+          "TER",
+          "MIC-R",
+          "PES-R",
+          "HVY",
+          "H20",
+          "FMI"
+        ]
+      },
+      "112327": {
+        "name": "Hold",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "OTHER"
+        ]
+      },
+      "114135": {
+        "name": "R&D: Compliance Suite - Noninfused Prerolls",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN",
+          "HVY",
+          "H20",
+          "FMI"
+        ]
+      },
+      "115454": {
+        "name": "Soil pH",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Other"
+        ],
+        "test_types": [
+          "PH"
+        ]
+      },
+      "115907": {
+        "name": "Retest: Microbial",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical"
+        ],
+        "test_types": [
+          "MIC-R",
+          "MIC-A"
+        ]
+      },
+      "116428": {
+        "name": "Potency and Terpenes Composite",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "CAN",
+          "TER"
+        ]
+      },
+      "117366": {
+        "name": "OMMA Compliance Suite - Keif",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "CAN",
+          "TER",
+          "MIC-R",
+          "PES-R",
+          "HVY",
+          "H20",
+          "WA",
+          "FMI"
+        ]
+      },
+      "117411": {
+        "name": "R&D Cannabanoid Potency",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "CAN",
+          "H20"
+        ]
+      },
+      "119126": {
+        "name": "Soil Nutrients",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Other"
+        ],
+        "test_types": [
+          "NUT"
+        ]
+      },
+      "124180": {
+        "name": "R&D Compliance Suite - Infused Flower Products",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "CAN",
+          "TER",
+          "SOL-R",
+          "MIC-R",
+          "PES-R",
+          "MYC",
+          "HVY",
+          "H20",
+          "WA",
+          "FMI"
+        ]
+      },
+      "124748": {
+        "name": "Potency Reextract",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "124749": {
+        "name": "Terpene Reextract",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "TER"
+        ]
+      }
+    }
+  },
+  "cns": {
+    "additional_files": "default/coa/templates/additional_files",
+    "qc": "default/coa/templates/qc",
+    "page_priority": [],
+    "packages": {
+      "31384": {
+        "name": "Demo Menu Item",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "CAN",
+          "TER",
+          "SOL-R",
+          "PES-R",
+          "H20",
+          "WA",
+          "PES-A",
+          "SOL-A",
+          "FMI"
+        ]
+      },
+      "31913": {
+        "name": "Marijuana Infused Flower/Pre-rolls - Full Panel",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN",
+          "TER",
+          "MIC-R",
+          "PES-R",
+          "MYC",
+          "HVY",
+          "H20",
+          "FMI"
+        ]
+      },
+      "31914": {
+        "name": "Wet Marijuana - Full Panel",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN",
+          "TER",
+          "MIC-R",
+          "PES-R",
+          "MYC",
+          "HVY",
+          "FMI"
+        ]
+      },
+      "31915": {
+        "name": "Marijuana Extract (nonsolvent) - Full Panel",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "CAN",
+          "TER",
+          "MIC-R",
+          "PES-R",
+          "MYC",
+          "HVY",
+          "FMI"
+        ]
+      },
+      "31916": {
+        "name": "Marijuana Extract (solvent-based) - Full Panel",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "CAN",
+          "TER",
+          "SOL-R",
+          "MIC-R",
+          "PES-R",
+          "MYC",
+          "HVY",
+          "FMI"
+        ]
+      },
+      "31917": {
+        "name": "Marijuana Edibles - Full Panel",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Ingestible"
+        ],
+        "test_types": [
+          "CAN",
+          "TER",
+          "MIC-R",
+          "HOM",
+          "WA",
+          "FMI",
+          "PH"
+        ]
+      },
+      "31918": {
+        "name": "Marijuana Liquids/Drinks - Full Panel",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Ingestible"
+        ],
+        "test_types": [
+          "CAN",
+          "TER",
+          "MIC-R",
+          "WA",
+          "FMI",
+          "PH"
+        ]
+      },
+      "31925": {
+        "name": "Marijuana Capsules/Suppositories",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Ingestible"
+        ],
+        "test_types": [
+          "CAN",
+          "TER",
+          "MIC-R"
+        ]
+      },
+      "31926": {
+        "name": "Marijuana Topicals",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "CAN",
+          "TER"
+        ]
+      },
+      "32683": {
+        "name": "Marijuana Flower - full panel",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN",
+          "TER",
+          "MIC-R",
+          "PES-R",
+          "MYC",
+          "HVY",
+          "H20",
+          "FMI"
+        ]
+      },
+      "34135": {
+        "name": "Other",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Other"
+        ],
+        "test_types": [
+          "PES-R",
+          "MYC",
+          "HVY"
+        ]
+      },
+      "35922": {
+        "name": "Hemp/CBD Extracts - full panel",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "CAN",
+          "TER",
+          "SOL-R",
+          "MIC-R",
+          "PES-R",
+          "MYC",
+          "HVY",
+          "FMI"
+        ]
+      },
+      "37566": {
+        "name": "Hemp/CBD Topical - Full Panel",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Topical"
+        ],
+        "test_types": [
+          "CAN",
+          "TER",
+          "SOL-R",
+          "MIC-R",
+          "PES-R",
+          "MYC",
+          "HVY",
+          "FMI"
+        ]
+      },
+      "40584": {
+        "name": "Hemp Extracts - Potency",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "41170": {
+        "name": "Cannabinoid Isolate - potency",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "41171": {
+        "name": "Hemp Cannabinoid Isolate - full panel",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "CAN",
+          "TER",
+          "SOL-R",
+          "MIC-R",
+          "PES-R",
+          "MYC",
+          "HVY",
+          "FMI"
+        ]
+      },
+      "41890": {
+        "name": "Hemp/CBD Ingestibles - potency only",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Ingestible"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "42683": {
+        "name": "Hemp Biomass - Pesticide Screen",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "PES-R"
+        ]
+      },
+      "43326": {
+        "name": "R&D Marijuana Topicals - Potency",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Topical"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "43464": {
+        "name": "Hemp Biomass - full panel",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN",
+          "TER",
+          "MIC-R",
+          "PES-R",
+          "MYC",
+          "HVY",
+          "H20",
+          "FMI"
+        ]
+      },
+      "44025": {
+        "name": "Hemp/CBD Ingestibles - full panel",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Ingestible"
+        ],
+        "test_types": [
+          "CAN",
+          "TER",
+          "MIC-R",
+          "PES-R",
+          "MYC",
+          "HVY",
+          "WA",
+          "FMI",
+          "PH"
+        ]
+      },
+      "45021": {
+        "name": "Hemp Extracts - solvents",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "SOL-R"
+        ]
+      },
+      "45253": {
+        "name": "Hemp Biomass - potency",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "46600": {
+        "name": "Amended Notes",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "OTHER"
+        ]
+      },
+      "47230": {
+        "name": "Food (non-cannabis) - pH only",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Ingestible"
+        ],
+        "test_types": [
+          "PH"
+        ]
+      },
+      "48077": {
+        "name": "R&D - Marijuana Flower - Micro",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "MIC-R"
+        ]
+      },
+      "48078": {
+        "name": "R&D - Soil - Micro",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Other"
+        ],
+        "test_types": [
+          "MIC-R"
+        ]
+      },
+      "48079": {
+        "name": "R&D - Water - Micro",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Other"
+        ],
+        "test_types": [
+          "MIC-R"
+        ]
+      },
+      "48340": {
+        "name": "R&D Marijuana Flower - Potency",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "52035": {
+        "name": "R&D Marijuana Flower - Mycotoxins",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "MYC"
+        ]
+      },
+      "52149": {
+        "name": "CA Industrial Hemp",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "52284": {
+        "name": "R&D Marijuana Flower - Heavy Metals",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "HVY"
+        ]
+      },
+      "52285": {
+        "name": "Hemp Biomass - Heavy Metals",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "HVY"
+        ]
+      },
+      "53221": {
+        "name": "R&D Marijuana Extract - Potency Screen",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "53227": {
+        "name": "AT1 - Harvest Testing",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "53228": {
+        "name": "AT2 - Biomass Remediation",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "53230": {
+        "name": "AT3 - Biomass Final",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "53231": {
+        "name": "AT4 - Biomass Quality Assurance",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN",
+          "MIC-R",
+          "HVY",
+          "PES-A"
+        ]
+      },
+      "53232": {
+        "name": "AT5 - Formulate Remediation",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "CAN",
+          "TER"
+        ]
+      },
+      "53233": {
+        "name": "AT6 - Formulate Final",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "CAN",
+          "TER",
+          "MIC-R",
+          "PES-R",
+          "MYC",
+          "HVY"
+        ]
+      },
+      "53288": {
+        "name": "R&D Marijuana Extract-Metals",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "HVY"
+        ]
+      },
+      "54141": {
+        "name": "Homogeneity Test, <10,000",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "HOM"
+        ]
+      },
+      "55871": {
+        "name": "Hemp Extracts - Heavy Metals",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "HVY"
+        ]
+      },
+      "55872": {
+        "name": "Hemp Extracts - Micro",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "MIC-R"
+        ]
+      },
+      "61333": {
+        "name": "R&D Marijuana Ingestibles - Potency",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Ingestible"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "64812": {
+        "name": "R&D - Marijuana Flower - Pesticides",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "PES-R"
+        ]
+      },
+      "64815": {
+        "name": "R&D - Water - Pesticides",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Other"
+        ],
+        "test_types": [
+          "PES-R"
+        ]
+      },
+      "68096": {
+        "name": "R&D Marijuana Edibles - Micro",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Ingestible",
+          "Other"
+        ],
+        "test_types": [
+          "MIC-R"
+        ]
+      },
+      "68174": {
+        "name": "State-Ordered QC Testing",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical"
+        ],
+        "test_types": [
+          "CAN",
+          "TER",
+          "SOL-R",
+          "MIC-R",
+          "PES-R",
+          "MYC",
+          "HVY",
+          "H20",
+          "FMI"
+        ]
+      },
+      "68870": {
+        "name": "Potency - minor cannabinoids screen",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "69472": {
+        "name": "R&D Marijuana Extracts - Residual Solvents",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "SOL-R",
+          "SOL-A"
+        ]
+      },
+      "70356": {
+        "name": "R&D Marijuana Flower - Terpenes",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "TER"
+        ]
+      },
+      "70357": {
+        "name": "R&D Marijuana Extract - Terpenes",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "TER"
+        ]
+      },
+      "70358": {
+        "name": "R&D Marijuana Extract - Mycotoxins",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "MYC"
+        ]
+      },
+      "70359": {
+        "name": "R&D Marijuana Extract - Pesticides",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "PES-R"
+        ]
+      },
+      "70362": {
+        "name": "R&D Marijuana Extract - Micro",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "MIC-R"
+        ]
+      },
+      "70363": {
+        "name": "R&D Marijuana Ingestible - Terpenes",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Ingestible"
+        ],
+        "test_types": [
+          "TER"
+        ]
+      },
+      "70364": {
+        "name": "R&D Marijuana Ingestible - Water Activity/pH",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Ingestible"
+        ],
+        "test_types": [
+          "WA",
+          "PH"
+        ]
+      },
+      "70365": {
+        "name": "R&D Marijuana Topical - Terpenes",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Topical"
+        ],
+        "test_types": [
+          "TER"
+        ]
+      },
+      "70366": {
+        "name": "Hemp Biomass - Terpenes",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "TER"
+        ]
+      },
+      "70367": {
+        "name": "Hemp Biomass - Foreign Matter Inspection",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "FMI"
+        ]
+      },
+      "70368": {
+        "name": "Hemp Biomass - Mycotoxins",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "MYC"
+        ]
+      },
+      "70369": {
+        "name": "Hemp Biomass - Micro",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "MIC-R"
+        ]
+      },
+      "70370": {
+        "name": "Hemp Extract - Terpenes",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "TER"
+        ]
+      },
+      "70371": {
+        "name": "Hemp Extract - Foreign Matter Inspection",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "FMI"
+        ]
+      },
+      "70372": {
+        "name": "Hemp Extract - Mycotoxins",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "MYC"
+        ]
+      },
+      "70373": {
+        "name": "Hemp Extract - Pesticides",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "PES-R"
+        ]
+      },
+      "70374": {
+        "name": "Hemp/CBD Ingestible - Terpenes",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Ingestible"
+        ],
+        "test_types": [
+          "TER"
+        ]
+      },
+      "70375": {
+        "name": "Hemp/CBD Ingestible - Foreign Matter Inspection",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Ingestible"
+        ],
+        "test_types": [
+          "FMI"
+        ]
+      },
+      "70376": {
+        "name": "Hemp/CBD Ingestible - Mycotoxins",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Ingestible"
+        ],
+        "test_types": [
+          "MYC"
+        ]
+      },
+      "70377": {
+        "name": "Hemp/CBD Ingestible - Heavy Metals",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Ingestible"
+        ],
+        "test_types": [
+          "HVY"
+        ]
+      },
+      "70378": {
+        "name": "Hemp/CBD Ingestible - Pesticides",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Ingestible"
+        ],
+        "test_types": [
+          "PES-R"
+        ]
+      },
+      "70379": {
+        "name": "Hemp/CBD Ingestible - Micro",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Ingestible",
+          "Topical"
+        ],
+        "test_types": [
+          "MIC-R"
+        ]
+      },
+      "70380": {
+        "name": "Hemp/CBD Ingestible - Water Actvity/pH",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Ingestible"
+        ],
+        "test_types": [
+          "WA",
+          "PH"
+        ]
+      },
+      "70387": {
+        "name": "Hemp/CBD Topicals - Terpenes",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Topical"
+        ],
+        "test_types": [
+          "TER"
+        ]
+      },
+      "70388": {
+        "name": "Hemp/CBD Topicals - Foreign Matter",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Topical"
+        ],
+        "test_types": [
+          "FMI"
+        ]
+      },
+      "70389": {
+        "name": "Hemp/CBD Topicals - Mycotoxins",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Topical"
+        ],
+        "test_types": [
+          "MYC"
+        ]
+      },
+      "70390": {
+        "name": "Hemp/CBD Topicals - Heavy Metals",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Topical"
+        ],
+        "test_types": [
+          "HVY"
+        ]
+      },
+      "70391": {
+        "name": "Hemp/CBD Topicals - Pesticides",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Topical"
+        ],
+        "test_types": [
+          "PES-R"
+        ]
+      },
+      "70392": {
+        "name": "Hemp/CBD - Micro",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "MIC-R"
+        ]
+      },
+      "70393": {
+        "name": "Hemp/CBD Topicals - Solvents",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Topical"
+        ],
+        "test_types": [
+          "SOL-R",
+          "SOL-A"
+        ]
+      },
+      "70394": {
+        "name": "Hemp/CBD Topicals - Water Activity/pH",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Topical"
+        ],
+        "test_types": [
+          "WA",
+          "PH"
+        ]
+      },
+      "70396": {
+        "name": "Cannabinoid Isolate - Terpenes",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "TER"
+        ]
+      },
+      "70397": {
+        "name": "Cannabinoid Isolate - Foreign Matter",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "FMI"
+        ]
+      },
+      "70398": {
+        "name": "Cannabinoid Isolate - Mycotoxins",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "MYC"
+        ]
+      },
+      "70399": {
+        "name": "Cannabinoid Isolate - Heavy Metals",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "HVY"
+        ]
+      },
+      "70400": {
+        "name": "Cannabinoid Isolate - Pesticides",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "PES-R"
+        ]
+      },
+      "70401": {
+        "name": "Cannabinoid Isolate - Micro",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "MIC-R"
+        ]
+      },
+      "70402": {
+        "name": "Cannabinoid Isolate - Solvents",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "SOL-R",
+          "SOL-A"
+        ]
+      },
+      "70403": {
+        "name": "Cannabinoid Isolate - Water Activity/pH",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "WA",
+          "PH"
+        ]
+      },
+      "72331": {
+        "name": "Hemp/CBD Topicals - Potency",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Topical"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "73043": {
+        "name": "R&D Micro - Yeast & Mold",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Other"
+        ],
+        "test_types": [
+          "MIC-R"
+        ]
+      },
+      "73044": {
+        "name": "R&D Moisture Content",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "H20"
+        ]
+      },
+      "76798": {
+        "name": "Ingestibles - Residual Solvent Test",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Ingestible"
+        ],
+        "test_types": [
+          "SOL-R",
+          "SOL-A"
+        ]
+      },
+      "78301": {
+        "name": "Hemp Biomass - full panel, with moisture",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN",
+          "TER",
+          "MIC-R",
+          "PES-R",
+          "MYC",
+          "HVY",
+          "H20",
+          "FMI"
+        ]
+      },
+      "78302": {
+        "name": "Contaminant Screen",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "MIC-R",
+          "PES-R",
+          "MYC",
+          "HVY"
+        ]
+      },
+      "82620": {
+        "name": "R&D - Water - Heavy Metals",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Other"
+        ],
+        "test_types": [
+          "HVY"
+        ]
+      },
+      "84147": {
+        "name": "Heavy Metals",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "HVY"
+        ]
+      },
+      "84335": {
+        "name": "Hemp Biomass, wet - Full Panel",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN",
+          "TER",
+          "MIC-R",
+          "PES-R",
+          "MYC",
+          "HVY",
+          "H20",
+          "FMI"
+        ]
+      },
+      "85285": {
+        "name": "Water Activity or pH",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Other"
+        ],
+        "test_types": [
+          "WA"
+        ]
+      },
+      "90053": {
+        "name": "Nutrient Extraction",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "NUT"
+        ]
+      },
+      "94840": {
+        "name": "Hemp/CBD-Topicals-Micro",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Topical"
+        ],
+        "test_types": [
+          "MIC-R"
+        ]
+      },
+      "97554": {
+        "name": "Potency",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "97555": {
+        "name": "Terpenes",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "TER"
+        ]
+      },
+      "97557": {
+        "name": "Pesticides/Herbicides/PGR/Mycotoxins",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "PES-R",
+          "MYC"
+        ]
+      },
+      "97560": {
+        "name": "Microbiology Suite",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Other"
+        ],
+        "test_types": [
+          "MIC-R"
+        ]
+      },
+      "97561": {
+        "name": "Microbiology Suite",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Ingestible",
+          "Topical"
+        ],
+        "test_types": [
+          "MIC-R"
+        ]
+      },
+      "97565": {
+        "name": "Pathogenic E. Coli",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "MIC-A"
+        ]
+      },
+      "97566": {
+        "name": "Salmonella",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "MIC-A"
+        ]
+      },
+      "97568": {
+        "name": "Aspergillus spp.",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "MIC-A"
+        ]
+      },
+      "97569": {
+        "name": "Yeast & Mold",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "MIC-A"
+        ]
+      },
+      "97570": {
+        "name": "Enterobacteriaceae",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "MIC-A"
+        ]
+      },
+      "97571": {
+        "name": "Total Coliform",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "MIC-A"
+        ]
+      },
+      "97572": {
+        "name": "Total Aerobic Count",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "MIC-A"
+        ]
+      },
+      "97573": {
+        "name": "Plant Gender Testing",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "OTHER"
+        ]
+      },
+      "97574": {
+        "name": "Residual Solvents",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "SOL-R"
+        ]
+      },
+      "97575": {
+        "name": "Moisture Content",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "H20"
+        ]
+      },
+      "97576": {
+        "name": "Foreign Matter Inspection",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "FMI"
+        ]
+      },
+      "97579": {
+        "name": "Homogeneity Test (10,001 - 50,000)",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Ingestible"
+        ],
+        "test_types": [
+          "HOM"
+        ]
+      },
+      "97581": {
+        "name": "Homogeneity Testing (>50,000)",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Ingestible"
+        ],
+        "test_types": [
+          "HOM"
+        ]
+      },
+      "124763": {
+        "name": "Cover Page",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "CAN",
+          "TER",
+          "SOL-R",
+          "MIC-R",
+          "PES-R",
+          "MYC",
+          "HVY",
+          "DNA",
+          "HOM",
+          "H20",
+          "WA",
+          "PES-A",
+          "MIC-A",
+          "SOL-A",
+          "RTO",
+          "FMI",
+          "OTHER",
+          "PH",
+          "SHELFLIFE",
+          "NUT",
+          "FLA",
+          "ALK",
+          "MISC"
+        ]
+      }
+    }
+  },
+  "egt": {
+    "additional_files": "default/coa/templates/additional_files",
+    "qc": "default/coa/templates/qc",
+    "page_priority": [],
+    "packages": {
+      "93791": {
+        "name": "Moisture analysis Loss on Drying",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "H20"
+        ]
+      },
+      "93795": {
+        "name": "Plant Tissue Nutrients analysis",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Other"
+        ],
+        "test_types": [
+          "NUT"
+        ]
+      },
+      "93796": {
+        "name": "Gender Testing",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "DNA"
+        ]
+      },
+      "93797": {
+        "name": "Multiplex Virus Testing",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "DNA"
+        ]
+      },
+      "93798": {
+        "name": "Cannabis Genetic Barcode",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "DNA"
+        ]
+      },
+      "94849": {
+        "name": "Microbial Testing",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical"
+        ],
+        "test_types": [
+          "MIC-R",
+          "MIC-A"
+        ]
+      },
+      "96336": {
+        "name": "Potency Testing 16 Cannabinoids",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "104906": {
+        "name": "Terpenes",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "TER"
+        ]
+      },
+      "107678": {
+        "name": "Lighthouse Cannabis Assay",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "DNA"
+        ]
+      },
+      "107679": {
+        "name": "Solvents",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "SOL-R"
+        ]
+      },
+      "108228": {
+        "name": "Heavy Metals",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "HVY"
+        ]
+      },
+      "109305": {
+        "name": "Virus Testing (HLVd)",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "DNA"
+        ]
+      },
+      "109329": {
+        "name": "Pesticide Screen",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "PES-R"
+        ]
+      },
+      "109330": {
+        "name": "Mycotoxins Screen with Pesticides",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "MYC"
+        ]
+      },
+      "109336": {
+        "name": "Compliance Testing Package1",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN",
+          "MIC-R",
+          "PES-R",
+          "MYC",
+          "HVY",
+          "H20"
+        ]
+      },
+      "109350": {
+        "name": "Compliance Testing Package2",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Concentrates & Extracts",
+          "Topical"
+        ],
+        "test_types": [
+          "CAN",
+          "SOL-R",
+          "MIC-R",
+          "PES-R",
+          "MYC",
+          "HVY"
+        ]
+      },
+      "109368": {
+        "name": "Compliance Testing Package 3",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Ingestible",
+          "Topical"
+        ],
+        "test_types": [
+          "CAN",
+          "MIC-R",
+          "H20"
+        ]
+      },
+      "116338": {
+        "name": "3 COVID19 RT-PCR TEST @$75 each sample",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Other"
+        ],
+        "test_types": [
+          "OTHER"
+        ]
+      },
+      "117316": {
+        "name": "10 Gender testing bulk samples @$50 each sample",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "DNA"
+        ]
+      },
+      "117317": {
+        "name": "6 Fusarium Bulk Samples @$25 each sample",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "DNA"
+        ]
+      },
+      "117925": {
+        "name": "Mushroom DNA Extraction",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Other"
+        ],
+        "test_types": [
+          "DNA"
+        ]
+      },
+      "118344": {
+        "name": "Compliance Potency",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "121631": {
+        "name": "Mycotoxins Screen",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical"
+        ],
+        "test_types": [
+          "MYC"
+        ]
+      }
+    }
+  },
+  "sha": {
+    "additional_files": "default/coa/templates/additional_files",
+    "qc": "default/coa/templates/qc",
+    "page_priority": [],
+    "packages": {
+      "122458": {
+        "name": "Audrey Test",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN",
+          "TER",
+          "SOL-R",
+          "MIC-R",
+          "PES-R",
+          "MYC",
+          "HVY",
+          "H20",
+          "WA"
+        ]
+      },
+      "122549": {
+        "name": "Potency - Flower",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN",
+          "H20"
+        ]
+      },
+      "122550": {
+        "name": "Potency - Concentrate",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "122551": {
+        "name": "Potency - Infused Product",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "122552": {
+        "name": "Potency - Extended - Flower",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN",
+          "H20"
+        ]
+      },
+      "122553": {
+        "name": "Potency - Extended - Concentrate",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "122555": {
+        "name": "Potency - Extended - Infused Product",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "122556": {
+        "name": "Safety Panel - Flower (Pass/Fail)",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN",
+          "MIC-R",
+          "PES-R",
+          "MYC",
+          "HVY",
+          "H20"
+        ]
+      },
+      "122557": {
+        "name": "Safety Panel - Concentrate + Infused Products (Pass/Fail)",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "CAN",
+          "SOL-R",
+          "MIC-R",
+          "PES-R",
+          "MYC",
+          "HVY",
+          "WA"
+        ]
+      },
+      "122696": {
+        "name": "Pesticides",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "PES-R"
+        ]
+      },
+      "122697": {
+        "name": "Mycotoxins",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "MYC"
+        ]
+      },
+      "122698": {
+        "name": "Microbial Impurities - Inhalable",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "MIC-R"
+        ]
+      },
+      "122699": {
+        "name": "Heavy Metals",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "HVY"
+        ]
+      },
+      "122700": {
+        "name": "Solvents",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "SOL-R"
+        ]
+      },
+      "122701": {
+        "name": "Terpenes",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "TER"
+        ]
+      },
+      "122703": {
+        "name": "Kratom Alkaloids",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Other"
+        ],
+        "test_types": [
+          "ALK"
+        ]
+      },
+      "122704": {
+        "name": "Kratom Safety Panel",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Other"
+        ],
+        "test_types": [
+          "SOL-R",
+          "MIC-R",
+          "PES-R",
+          "MYC",
+          "HVY",
+          "ALK"
+        ]
+      },
+      "122812": {
+        "name": "Water Activity",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical"
+        ],
+        "test_types": [
+          "WA"
+        ]
+      },
+      "124814": {
+        "name": "Microbial Impurities - Non-Inhalable",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "MIC-R"
+        ]
+      }
+    }
+  },
+  "tln": {
+    "additional_files": "default/coa/templates/additional_files",
+    "qc": "default/coa/templates/qc",
+    "page_priority": [],
+    "packages": {
+      "120273": {
+        "name": "NYS MC Compliance Panel - 10 sample unextracted",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN",
+          "MIC-R",
+          "PES-R",
+          "HVY"
+        ]
+      },
+      "120278": {
+        "name": "NYS MC Compliance Panel - Whole Flower & 5 sample unextracted",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN",
+          "MIC-R",
+          "PES-R",
+          "HVY"
+        ]
+      },
+      "120279": {
+        "name": "NYS MC Compliance Panel- 20 sample unextracted",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN",
+          "MIC-R",
+          "PES-R",
+          "HVY"
+        ]
+      },
+      "120282": {
+        "name": "Potency",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "120285": {
+        "name": "Heavy Metals",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical"
+        ],
+        "test_types": [
+          "HVY"
+        ]
+      },
+      "120287": {
+        "name": "Pesticides",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical"
+        ],
+        "test_types": [
+          "PES-R"
+        ]
+      },
+      "120288": {
+        "name": "Mycotoxins",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical"
+        ],
+        "test_types": [
+          "MYC"
+        ]
+      },
+      "120289": {
+        "name": "Moisture Content",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "H20"
+        ]
+      },
+      "120297": {
+        "name": "Water Activity",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "WA"
+        ]
+      },
+      "120298": {
+        "name": "6 Month Stability",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "120299": {
+        "name": "12 Month Stability",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "124856": {
+        "name": "NYS MC Compliance Panel - 5 sample extracted",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical"
+        ],
+        "test_types": [
+          "CAN",
+          "MIC-R",
+          "PES-R",
+          "HVY"
+        ]
+      },
+      "124867": {
+        "name": "NYS MC Compliance Panel - 10 sample extracted",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical"
+        ],
+        "test_types": [
+          "CAN",
+          "MIC-R",
+          "PES-R",
+          "HVY"
+        ]
+      },
+      "124879": {
+        "name": "NYS MC Compliance Panel - 20 sample extracted",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical"
+        ],
+        "test_types": [
+          "CAN",
+          "MIC-R",
+          "PES-R",
+          "HVY"
+        ]
+      },
+      "124896": {
+        "name": "Terpenes",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "TER"
+        ]
+      },
+      "124897": {
+        "name": "Residual Solvents",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical"
+        ],
+        "test_types": [
+          "SOL-R"
+        ]
+      }
+    }
+  },
+  "icm": {
+    "additional_files": "default/coa/templates/additional_files",
+    "qc": "default/coa/templates/qc",
+    "page_priority": [],
+    "packages": {
+      "68535": {
+        "name": "R&D Potency",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "CAN",
+          "H20"
+        ]
+      },
+      "68536": {
+        "name": "R&D Chemical Residue",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "PES-R",
+          "PES-A",
+          "OTHER"
+        ]
+      },
+      "68537": {
+        "name": "R&D qPCR",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "MIC-A"
+        ]
+      },
+      "68538": {
+        "name": "R&D Residual Solvents",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "SOL-R",
+          "SOL-A",
+          "OTHER"
+        ]
+      },
+      "68539": {
+        "name": "Foreign Matter",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "FMI",
+          "OTHER"
+        ]
+      },
+      "68540": {
+        "name": "R&D Heavy Metals",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "HVY",
+          "OTHER"
+        ]
+      },
+      "68541": {
+        "name": "R&D Water Activity",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "WA"
+        ]
+      },
+      "68543": {
+        "name": "Terpenes",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "TER",
+          "OTHER"
+        ]
+      },
+      "68545": {
+        "name": "Moisture",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "H20",
+          "OTHER"
+        ]
+      },
+      "68548": {
+        "name": "Compliance Homogeneity",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "68549": {
+        "name": "R&D Homogeneity",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "68550": {
+        "name": "Standard Potency",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "CAN",
+          "H20"
+        ]
+      },
+      "68551": {
+        "name": "Vitamin E Acetate",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "68552": {
+        "name": "Additional Package Sizes",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "OTHER"
+        ]
+      },
+      "68553": {
+        "name": "CDFA Hemp Testing",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN",
+          "H20"
+        ]
+      },
+      "68573": {
+        "name": "R&D Plating Microbial",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "MIC-R"
+        ]
+      },
+      "68574": {
+        "name": "Compliance (Bud, Shake, Trim)",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN",
+          "MIC-R",
+          "PES-R",
+          "HVY",
+          "H20",
+          "WA",
+          "PES-A",
+          "MIC-A",
+          "FMI"
+        ]
+      },
+      "68595": {
+        "name": "R&D Microbial Screen",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "MIC-R",
+          "MIC-A",
+          "OTHER"
+        ]
+      },
+      "68646": {
+        "name": "Compliance (Bud, Shake, Trim) + Terpenes",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN",
+          "TER",
+          "MIC-R",
+          "PES-R",
+          "HVY",
+          "H20",
+          "WA",
+          "PES-A",
+          "MIC-A",
+          "FMI"
+        ]
+      },
+      "68647": {
+        "name": "Compliance (Marijuana Extract non-Solvent & non-CO2)",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "CAN",
+          "MIC-R",
+          "PES-R",
+          "HVY",
+          "PES-A",
+          "MIC-A",
+          "FMI"
+        ]
+      },
+      "68648": {
+        "name": "Compliance (Marijuana Extract non-Solvent & non-CO2) + Terpenes",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "CAN",
+          "TER",
+          "MIC-R",
+          "PES-R",
+          "HVY",
+          "PES-A",
+          "MIC-A",
+          "FMI"
+        ]
+      },
+      "68651": {
+        "name": "Compliance (Marijuana Concentrate CO2 &Solvent-based)",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "CAN",
+          "SOL-R",
+          "PES-R",
+          "HVY",
+          "PES-A",
+          "SOL-A"
+        ]
+      },
+      "68656": {
+        "name": "Compliance  (Marijuana Concentrate CO2 & Solvent-based + Terpenes)",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "CAN",
+          "TER",
+          "SOL-R",
+          "PES-R",
+          "HVY",
+          "PES-A",
+          "SOL-A"
+        ]
+      },
+      "68659": {
+        "name": "Compliance (Marijuana Infused Product)",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "CAN",
+          "SOL-R",
+          "MIC-R",
+          "PES-R",
+          "HVY",
+          "WA",
+          "PES-A",
+          "MIC-A",
+          "SOL-A",
+          "FMI"
+        ]
+      },
+      "68660": {
+        "name": "Compliance (Marijuana Infused Product) + Terpenes",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "CAN",
+          "TER",
+          "SOL-R",
+          "MIC-R",
+          "PES-R",
+          "HVY",
+          "WA",
+          "PES-A",
+          "MIC-A",
+          "SOL-A",
+          "FMI"
+        ]
+      },
+      "80224": {
+        "name": "Compliance (Marijuana Vape Product)",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "CAN",
+          "SOL-R",
+          "PES-R",
+          "HVY",
+          "PES-A",
+          "SOL-A"
+        ]
+      },
+      "80226": {
+        "name": "Compliance (Marijuana Vape Product)+Terpenes",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "CAN",
+          "TER",
+          "SOL-R",
+          "PES-R",
+          "HVY",
+          "PES-A"
+        ]
+      },
+      "80462": {
+        "name": "Compliance Chemical Residue",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "PES-R"
+        ]
+      },
+      "87197": {
+        "name": "Compliance Potency",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "87198": {
+        "name": "Compliance Residual Solvents",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "SOL-R",
+          "SOL-A"
+        ]
+      },
+      "87201": {
+        "name": "Compliance Microbials",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "MIC-R",
+          "MIC-A"
+        ]
+      },
+      "87202": {
+        "name": "Infused Pre-roll/Moonrocks",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "CAN",
+          "SOL-R",
+          "MIC-R",
+          "PES-R",
+          "HVY",
+          "H20",
+          "WA",
+          "MIC-A",
+          "FMI"
+        ]
+      },
+      "93767": {
+        "name": "Compliance Metals",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "HVY"
+        ]
+      },
+      "102655": {
+        "name": "Gender Testing",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "OTHER"
+        ]
+      },
+      "102688": {
+        "name": "Custom Microbials",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "OTHER"
+        ]
+      },
+      "105113": {
+        "name": "Compliance plating",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "MIC-R",
+          "MIC-A"
+        ]
+      },
+      "105114": {
+        "name": "Compliance qPCR",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "MIC-R",
+          "MIC-A"
+        ]
+      },
+      "121189": {
+        "name": "Mycotoxins",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant",
+          "Concentrates & Extracts",
+          "Ingestible",
+          "Topical",
+          "Other"
+        ],
+        "test_types": [
+          "MYC"
+        ]
+      }
+    }
+  },
+  "ara": {
+    "additional_files": "default/coa/templates/additional_files",
+    "qc": "default/coa/templates/qc",
+    "page_priority": [],
+    "packages": {
+      "114825": {
+        "name": "Microbial Testing",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "MIC-R"
+        ]
+      },
+      "114826": {
+        "name": "Water Activity",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "WA"
+        ]
+      },
+      "115156": {
+        "name": "Foreign Matter",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "FMI"
+        ]
+      },
+      "115157": {
+        "name": "Heavy Metals",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "HVY"
+        ]
+      },
+      "115158": {
+        "name": "Full Compliance-Flower",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN",
+          "MIC-R",
+          "PES-R",
+          "MYC",
+          "HVY",
+          "WA",
+          "FMI"
+        ]
+      },
+      "115162": {
+        "name": "Pesticides",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "PES-R"
+        ]
+      },
+      "115163": {
+        "name": "Potency",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      },
+      "115169": {
+        "name": "Aries Test Package 1",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "MIC-R",
+          "WA",
+          "FMI"
+        ]
+      },
+      "117448": {
+        "name": "Microbial Testing",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "MIC-R"
+        ]
+      },
+      "124916": {
+        "name": "Microbial Testing",
+        "pages": [],
+        "compliance": false,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "MIC-R"
+        ]
+      },
+      "124917": {
+        "name": "Foreign Matter",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "FMI"
+        ]
+      },
+      "124918": {
+        "name": "Heavy Metals",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "HVY"
+        ]
+      },
+      "124920": {
+        "name": "Potency",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "CAN"
+        ]
+      }
+    }
+  },
+  "d9l": {
+    "additional_files": "default/coa/templates/additional_files",
+    "qc": "default/coa/templates/qc",
+    "page_priority": [],
+    "packages": {
+      "121953": {
+        "name": "Flower Compliance",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN",
+          "TER",
+          "MIC-R",
+          "PES-R",
+          "MYC",
+          "HVY",
+          "H20",
+          "WA",
+          "FMI"
+        ]
+      },
+      "122523": {
+        "name": "Concentrate Compliance",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Concentrates & Extracts"
+        ],
+        "test_types": [
+          "CAN",
+          "TER",
+          "SOL-R",
+          "MIC-R",
+          "PES-R",
+          "MYC",
+          "HVY",
+          "FMI"
+        ]
+      },
+      "122524": {
+        "name": "Edible Compliance",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Ingestible"
+        ],
+        "test_types": [
+          "CAN",
+          "TER",
+          "MIC-R",
+          "PES-R",
+          "MYC",
+          "FMI"
+        ]
+      },
+      "122525": {
+        "name": "Fresh Frozen/Wet Flower Compliance",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN",
+          "TER",
+          "MIC-R",
+          "PES-R",
+          "MYC",
+          "HVY",
+          "H20",
+          "WA",
+          "FMI"
+        ]
+      },
+      "122526": {
+        "name": "Infused PreRoll Compliance",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN",
+          "TER",
+          "SOL-R",
+          "MIC-R",
+          "PES-R",
+          "MYC",
+          "HVY",
+          "H20",
+          "WA",
+          "FMI"
+        ]
+      },
+      "122527": {
+        "name": "Non Infused PreRoll (prior testing)",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN",
+          "HVY",
+          "H20",
+          "WA",
+          "FMI"
+        ]
+      },
+      "122531": {
+        "name": "Non Infused PreRoll (no prior testing)",
+        "pages": [],
+        "compliance": true,
+        "sample_categories": [
+          "Plant"
+        ],
+        "test_types": [
+          "CAN",
+          "TER",
+          "MIC-R",
+          "PES-R",
+          "MYC",
+          "HVY",
+          "H20",
+          "WA",
+          "FMI"
+        ]
+      }
+    }
+  }
+}

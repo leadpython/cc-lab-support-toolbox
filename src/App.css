@@ -20,3 +20,9 @@
 .App-link {
   color: #09d3ac;
 }
+
+.login-internal-fields {
+  font-size: 12px;
+  padding: 5px;
+  width: 175px;
+}
